@@ -1,0 +1,134 @@
+{
+ "dataset": "CICIoT2023",
+ "config": {
+  "rounds": 60,
+  "m": 15,
+  "local_epochs": 3,
+  "batch_size": 256,
+  "lr": 0.001,
+  "seed": 42,
+  "hold_out_frac": 0.25,
+  "hidden": [
+   256,
+   128,
+   64
+  ],
+  "max_rows_per_client": 2000
+ },
+ "K": 73,
+ "seeds": [
+  42,
+  123,
+  456
+ ],
+ "rows": [
+  {
+   "alpha": 0.1,
+   "policy": "Threshold-0.3",
+   "mean": 0.5169581222725791,
+   "sd": 0.1425467818711711,
+   "participations": 833,
+   "stranded": 0.2732758170937529,
+   "stop_round": 60
+  },
+  {
+   "alpha": 0.1,
+   "policy": "Random-m",
+   "mean": 0.6068537842613436,
+   "sd": 0.1302421495861392,
+   "participations": 900,
+   "stranded": 0.21270712555442103,
+   "stop_round": null
+  },
+  {
+   "alpha": 0.1,
+   "policy": "FedAvg-full",
+   "mean": 0.5068596796249302,
+   "sd": 0.15425739892077295,
+   "participations": 1115,
+   "stranded": 0.029099206804520907,
+   "stop_round": 42
+  },
+  {
+   "alpha": 0.1,
+   "policy": "LACS-pace",
+   "mean": 0.638733560398089,
+   "sd": 0.07891177352622797,
+   "participations": 896,
+   "stranded": 0.2163344072075887,
+   "stop_round": null
+  },
+  {
+   "alpha": 0.5,
+   "policy": "Threshold-0.3",
+   "mean": 0.7190325385240701,
+   "sd": 0.04244323942076152,
+   "participations": 878,
+   "stranded": 0.2941296186905635,
+   "stop_round": null
+  },
+  {
+   "alpha": 0.5,
+   "policy": "Random-m",
+   "mean": 0.7403494724746024,
+   "sd": 0.017885442470485766,
+   "participations": 900,
+   "stranded": 0.2737328665896438,
+   "stop_round": null
+  },
+  {
+   "alpha": 0.5,
+   "policy": "FedAvg-full",
+   "mean": 0.7043853470776401,
+   "sd": 0.06499158956739172,
+   "participations": 1210,
+   "stranded": 0.0292440858733871,
+   "stop_round": 41
+  },
+  {
+   "alpha": 0.5,
+   "policy": "LACS-pace",
+   "mean": 0.7328998488120805,
+   "sd": 0.031242634389920823,
+   "participations": 897,
+   "stranded": 0.2758364713354796,
+   "stop_round": null
+  },
+  {
+   "alpha": 5.0,
+   "policy": "Threshold-0.3",
+   "mean": 0.7714234459564472,
+   "sd": 0.0029679803822807937,
+   "participations": 878,
+   "stranded": 0.29264726339000063,
+   "stop_round": null
+  },
+  {
+   "alpha": 5.0,
+   "policy": "Random-m",
+   "mean": 0.7731054294089416,
+   "sd": 0.0033865369286035568,
+   "participations": 900,
+   "stranded": 0.2720118602559706,
+   "stop_round": null
+  },
+  {
+   "alpha": 5.0,
+   "policy": "FedAvg-full",
+   "mean": 0.7615899234886149,
+   "sd": 0.002580297613009689,
+   "participations": 1208,
+   "stranded": 0.029533468471408083,
+   "stop_round": 41
+  },
+  {
+   "alpha": 5.0,
+   "policy": "LACS-pace",
+   "mean": 0.7732626664963295,
+   "sd": 0.0018264464055255218,
+   "participations": 900,
+   "stranded": 0.2720225319199405,
+   "stop_round": null
+  }
+ ]
+}

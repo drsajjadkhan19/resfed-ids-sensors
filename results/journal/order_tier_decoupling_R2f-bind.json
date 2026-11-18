@@ -1,0 +1,1622 @@
+[
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.23621569598124414,
+  "energy": 67.95405588096,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.23019024472241728,
+  "energy": 67.95405588096,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.23797943543342256,
+  "energy": 63.13898311296,
+  "updates": 150
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.22941852327926454,
+  "energy": 63.13898311296,
+  "updates": 150
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.23260129792687642,
+  "energy": 56.60592250496,
+  "updates": 134
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.21840864536487126,
+  "energy": 56.60592250496,
+  "updates": 134
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2314690131975941,
+  "energy": 53.511496928000014,
+  "updates": 128,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 1,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.24290891168506298,
+  "energy": 53.511496928000014,
+  "updates": 128,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.21683202906257282,
+  "energy": 67.85551280448,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.2329431503907215,
+  "energy": 67.85551280448,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.21945247108841354,
+  "energy": 62.64271408448,
+  "updates": 149
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.21853293993746276,
+  "energy": 62.64271408448,
+  "updates": 149
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.21371944400417278,
+  "energy": 55.733725966079994,
+  "updates": 132
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.2123295892896776,
+  "energy": 55.733725966079994,
+  "updates": 132
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.23023048049124722,
+  "energy": 53.01522789952001,
+  "updates": 127,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 2,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.2327608860741192,
+  "energy": 53.01522789952001,
+  "updates": 127,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.19434507158886846,
+  "energy": 65.767016176,
+  "updates": 157
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.22813847653324915,
+  "energy": 65.767016176,
+  "updates": 157
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.18391130439709955,
+  "energy": 60.94664823999999,
+  "updates": 145
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.22842177351688958,
+  "energy": 60.94664823999999,
+  "updates": 145
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.22192956276401213,
+  "energy": 54.85958786559999,
+  "updates": 130
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.22110622101465618,
+  "energy": 54.85958786559999,
+  "updates": 130
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.20205798530704563,
+  "energy": 51.31916205504001,
+  "updates": 123,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 3,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.25510536852709637,
+  "energy": 51.31916205504001,
+  "updates": 123,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.2459326144144594,
+  "energy": 69.7617497504,
+  "updates": 167
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.24521623996754352,
+  "energy": 69.7617497504,
+  "updates": 167
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.24254476931511904,
+  "energy": 64.1459299104,
+  "updates": 153
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.21564744940130723,
+  "energy": 64.1459299104,
+  "updates": 153
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.13874069948347872,
+  "energy": 56.404423711999996,
+  "updates": 134
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.19931486568895918,
+  "energy": 56.404423711999996,
+  "updates": 134
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.1682750435358653,
+  "energy": 55.34418399040001,
+  "updates": 133,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 10
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 4,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.19006545541263792,
+  "energy": 55.34418399040001,
+  "updates": 133,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 10
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.23412927307565606,
+  "energy": 69.27575334784,
+  "updates": 166
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.21785663497839539,
+  "energy": 69.27575334784,
+  "updates": 166
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2289112177789549,
+  "energy": 63.659933507839995,
+  "updates": 152
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.22384960246116475,
+  "energy": 63.659933507839995,
+  "updates": 152
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.2309360209221639,
+  "energy": 57.18511974783999,
+  "updates": 136
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.21821849623735917,
+  "energy": 57.18511974783999,
+  "updates": 136
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.22197467642953617,
+  "energy": 53.27925085952002,
+  "updates": 128,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 12
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 5,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.2509025768782033,
+  "energy": 53.27925085952002,
+  "updates": 128,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 12
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.2168341261278103,
+  "energy": 68.05529949312,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.23142400516991357,
+  "energy": 68.05529949312,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.1808228331195944,
+  "energy": 62.842500773119994,
+  "updates": 149
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.1752679958908724,
+  "energy": 62.842500773119994,
+  "updates": 149
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.23541395443020535,
+  "energy": 55.91171421311999,
+  "updates": 132
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.1705433284461521,
+  "energy": 55.91171421311999,
+  "updates": 132
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.22805480270575212,
+  "energy": 53.21501458816002,
+  "updates": 127,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 6,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.1813425815990139,
+  "energy": 53.21501458816002,
+  "updates": 127,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.16465458550161596,
+  "energy": 70.55704279936,
+  "updates": 169
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.2309508448190113,
+  "energy": 70.55704279936,
+  "updates": 169
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.24213209405075814,
+  "energy": 64.94122295936,
+  "updates": 155
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.2266849079061915,
+  "energy": 64.94122295936,
+  "updates": 155
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.1827332670635432,
+  "energy": 58.03691223935999,
+  "updates": 138
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.21387369877049667,
+  "energy": 58.03691223935999,
+  "updates": 138
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.19866744327891628,
+  "energy": 55.31373677440002,
+  "updates": 133,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 7,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.23340634043782493,
+  "energy": 55.31373677440002,
+  "updates": 133,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.21970894363226823,
+  "energy": 67.67441805888,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.2428710633872791,
+  "energy": 67.67441805888,
+  "updates": 162
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.23969375123433645,
+  "energy": 62.456324170879995,
+  "updates": 149
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.3451851475364695,
+  "energy": 62.456324170879995,
+  "updates": 149
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.2318167669191071,
+  "energy": 55.542040884479995,
+  "updates": 132
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.3368283892924114,
+  "energy": 55.542040884479995,
+  "updates": 132
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2195446709279007,
+  "energy": 52.82883798592002,
+  "updates": 127,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 8,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.2318946504259118,
+  "energy": 52.82883798592002,
+  "updates": 127,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.1377836961918481,
+  "energy": 70.71642735616,
+  "updates": 169
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.2030011429130288,
+  "energy": 70.71642735616,
+  "updates": 169
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2194676666746815,
+  "energy": 65.10060751616,
+  "updates": 155
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.2188508563930094,
+  "energy": 65.10060751616,
+  "updates": 155
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.19692323134372947,
+  "energy": 58.19629679616,
+  "updates": 138
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.20779280966550706,
+  "energy": 58.19629679616,
+  "updates": 138
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.16710595681138107,
+  "energy": 55.473121331200005,
+  "updates": 133,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 9,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.22787272780304463,
+  "energy": 55.473121331200005,
+  "updates": 133,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.18461227760298216,
+  "energy": 70.309387792,
+  "updates": 169
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.2633780335388528,
+  "energy": 70.309387792,
+  "updates": 169
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.23644467749892614,
+  "energy": 64.29054683199999,
+  "updates": 154
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.2570172924253205,
+  "energy": 64.29054683199999,
+  "updates": 154
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.22548637957146148,
+  "energy": 57.0050134336,
+  "updates": 136
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.24614116162697078,
+  "energy": 57.0050134336,
+  "updates": 136
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.21618036235187743,
+  "energy": 54.66306064704002,
+  "updates": 132,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc_removed",
+  "seed": 10,
+  "epochs": 2,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.23721229965585985,
+  "energy": 54.66306064704002,
+  "updates": 132,
+  "classes_present": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "n_dropped": 11
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.27510122726930275,
+  "energy": 59.32750941951999,
+  "updates": 112
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.034540644426517345,
+  "energy": 59.32750941951999,
+  "updates": 112
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2925277151007357,
+  "energy": 55.46792029951999,
+  "updates": 104
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.034540644426517345,
+  "energy": 55.46792029951999,
+  "updates": 104
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.2583678635908715,
+  "energy": 47.91818743551999,
+  "updates": 88
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 1,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.034540644426517345,
+  "energy": 47.91818743551999,
+  "updates": 88
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.26817916832339345,
+  "energy": 59.69113448959999,
+  "updates": 113
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.03394173709764431,
+  "energy": 59.69113448959999,
+  "updates": 113
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2823542643311771,
+  "energy": 55.83154536959999,
+  "updates": 105
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.03394173709764431,
+  "energy": 55.83154536959999,
+  "updates": 105
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.22565350787989996,
+  "energy": 46.85811833599999,
+  "updates": 86
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 2,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.03394173709764431,
+  "energy": 46.85811833599999,
+  "updates": 86
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.30008228297865847,
+  "energy": 57.99915180799998,
+  "updates": 110
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.030335195530726257,
+  "energy": 57.99915180799998,
+  "updates": 110
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.31328288924066816,
+  "energy": 53.65711404799998,
+  "updates": 101
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.030335195530726257,
+  "energy": 53.65711404799998,
+  "updates": 101
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.22603005275159793,
+  "energy": 46.04631024639998,
+  "updates": 85
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 3,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.030335195530726257,
+  "energy": 46.04631024639998,
+  "updates": 85
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.27909945090908006,
+  "energy": 61.85852912128,
+  "updates": 118
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.27727508876234586,
+  "energy": 61.85852912128,
+  "updates": 118
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.295610005890138,
+  "energy": 57.516491361279996,
+  "updates": 109
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.24083988835172465,
+  "energy": 57.516491361279996,
+  "updates": 109
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.2311044931666924,
+  "energy": 48.06061568768,
+  "updates": 89
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 4,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.21513428275937652,
+  "energy": 48.06061568768,
+  "updates": 89
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.2819903661800536,
+  "energy": 60.94484199935999,
+  "updates": 117
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.03162576758738238,
+  "energy": 60.94484199935999,
+  "updates": 117
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.29450310193033796,
+  "energy": 56.60280423935998,
+  "updates": 108
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.03162576758738238,
+  "energy": 56.60280423935998,
+  "updates": 108
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.2490299576845132,
+  "energy": 47.64808679935999,
+  "updates": 89
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 5,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.03162576758738238,
+  "energy": 47.64808679935999,
+  "updates": 89
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.20809570711799363,
+  "energy": 58.64050255615999,
+  "updates": 110
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.030302522135766032,
+  "energy": 58.64050255615999,
+  "updates": 110
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.23941376321251565,
+  "energy": 54.78091343615999,
+  "updates": 102
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.030302522135766032,
+  "energy": 54.78091343615999,
+  "updates": 102
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.24474355220833233,
+  "energy": 46.30864463615999,
+  "updates": 84
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 6,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.030302522135766032,
+  "energy": 46.30864463615999,
+  "updates": 84
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.28734695588845316,
+  "energy": 62.107354949119994,
+  "updates": 119
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.03184111710865994,
+  "energy": 62.107354949119994,
+  "updates": 119
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2830798891776066,
+  "energy": 57.76531718912,
+  "updates": 110
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.03184111710865994,
+  "energy": 57.76531718912,
+  "updates": 110
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.24155998080516802,
+  "energy": 48.81059974912,
+  "updates": 91
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 7,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.03184111710865994,
+  "energy": 48.81059974912,
+  "updates": 91
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.26519498717191314,
+  "energy": 60.19238685951999,
+  "updates": 115
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.03243984851577205,
+  "energy": 60.19238685951999,
+  "updates": 115
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.2857568137752562,
+  "energy": 55.850349099519995,
+  "updates": 106
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.03243984851577205,
+  "energy": 55.850349099519995,
+  "updates": 106
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.2400012481272095,
+  "energy": 47.31700936191999,
+  "updates": 88
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 8,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.03243984851577205,
+  "energy": 47.31700936191999,
+  "updates": 88
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.28511767492001383,
+  "energy": 62.11417983231999,
+  "updates": 118
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.03145827612890342,
+  "energy": 62.11417983231999,
+  "updates": 118
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.24748990261175174,
+  "energy": 57.772142072319994,
+  "updates": 109
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.03145827612890342,
+  "energy": 57.772142072319994,
+  "updates": 109
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.24242636889952657,
+  "energy": 48.81742463232,
+  "updates": 90
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 9,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.03145827612890342,
+  "energy": 48.81742463232,
+  "updates": 90
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "published",
+  "terminal": 0.21043002112583573,
+  "energy": 63.10016364799999,
+  "updates": 122
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 8,
+  "tau": 0.2,
+  "order": "deficit",
+  "terminal": 0.033410693833263005,
+  "energy": 63.10016364799999,
+  "updates": 122
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "published",
+  "terminal": 0.3097752800639544,
+  "energy": 58.275677247999994,
+  "updates": 112
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 8,
+  "tau": 0.3,
+  "order": "deficit",
+  "terminal": 0.033410693833263005,
+  "energy": 58.275677247999994,
+  "updates": 112
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "published",
+  "terminal": 0.271787188458355,
+  "energy": 48.337352934399995,
+  "updates": 91
+ },
+ {
+  "variant": "sbc2cam",
+  "seed": 10,
+  "epochs": 8,
+  "tau": 0.5,
+  "order": "deficit",
+  "terminal": 0.033410693833263005,
+  "energy": 48.337352934399995,
+  "updates": 91
+ }
+]

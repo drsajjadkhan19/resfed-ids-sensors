@@ -1,5 +1,5 @@
-"""Revision statistics computed ONLY from saved artefacts in code/results/journal.
-No training is run. Usage: python3 revision_stats.py <results_dir> <out_json>"""
+"""Statistics of the article, computed only from the saved artefacts in results/journal.
+No training is run. Usage: python3 analysis/stats_journal.py <results_dir> <out_json>"""
 import json, sys, numpy as np
 from scipy import stats
 R, OUT = sys.argv[1], sys.argv[2]

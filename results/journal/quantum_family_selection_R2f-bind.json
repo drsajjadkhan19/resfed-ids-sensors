@@ -1,0 +1,1015 @@
+{
+ "regime": "R2f-bind",
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "config": {
+  "rounds": 40,
+  "m": 12,
+  "max_rows_per_client": 1200,
+  "local_epochs": 2
+ },
+ "families": {
+  "uniform-quantum": [
+   "uniform-quantum|uniform2|none|mu0.01",
+   "uniform-quantum|uniform2|none|mu0.1",
+   "uniform-quantum|uniform2|mass|mu0.01",
+   "uniform-quantum|uniform2|mass|mu0.1",
+   "uniform-quantum|uniform2|decay|mu0.01",
+   "uniform-quantum|uniform2|decay|mu0.1",
+   "uniform-quantum|uniform2|adam|mu0.01",
+   "uniform-quantum|uniform2|adam|mu0.1",
+   "uniform-quantum|uniform4|none|mu0.01",
+   "uniform-quantum|uniform4|none|mu0.1",
+   "uniform-quantum|uniform4|mass|mu0.01",
+   "uniform-quantum|uniform4|mass|mu0.1",
+   "uniform-quantum|uniform4|decay|mu0.01",
+   "uniform-quantum|uniform4|decay|mu0.1",
+   "uniform-quantum|uniform4|adam|mu0.01",
+   "uniform-quantum|uniform4|adam|mu0.1",
+   "uniform-quantum|uniform8|none|mu0.01",
+   "uniform-quantum|uniform8|none|mu0.1",
+   "uniform-quantum|uniform8|mass|mu0.01",
+   "uniform-quantum|uniform8|mass|mu0.1",
+   "uniform-quantum|uniform8|decay|mu0.01",
+   "uniform-quantum|uniform8|decay|mu0.1",
+   "uniform-quantum|uniform8|adam|mu0.01",
+   "uniform-quantum|uniform8|adam|mu0.1",
+   "uniform-quantum|uniform16|none|mu0.01",
+   "uniform-quantum|uniform16|none|mu0.1",
+   "uniform-quantum|uniform16|mass|mu0.01",
+   "uniform-quantum|uniform16|mass|mu0.1",
+   "uniform-quantum|uniform16|decay|mu0.01",
+   "uniform-quantum|uniform16|decay|mu0.1",
+   "uniform-quantum|uniform16|adam|mu0.01",
+   "uniform-quantum|uniform16|adam|mu0.1",
+   "uniform-quantum|uniform32|none|mu0.01",
+   "uniform-quantum|uniform32|none|mu0.1",
+   "uniform-quantum|uniform32|mass|mu0.01",
+   "uniform-quantum|uniform32|mass|mu0.1",
+   "uniform-quantum|uniform32|decay|mu0.01",
+   "uniform-quantum|uniform32|decay|mu0.1",
+   "uniform-quantum|uniform32|adam|mu0.01",
+   "uniform-quantum|uniform32|adam|mu0.1"
+  ],
+  "per-client-quantum": [
+   "per-client-quantum|amortized8|none|mu0.01",
+   "per-client-quantum|amortized8|none|mu0.1",
+   "per-client-quantum|amortized8|mass|mu0.01",
+   "per-client-quantum|amortized8|mass|mu0.1",
+   "per-client-quantum|amortized8|decay|mu0.01",
+   "per-client-quantum|amortized8|decay|mu0.1",
+   "per-client-quantum|amortized8|adam|mu0.01",
+   "per-client-quantum|amortized8|adam|mu0.1",
+   "per-client-quantum|amortized16|none|mu0.01",
+   "per-client-quantum|amortized16|none|mu0.1",
+   "per-client-quantum|amortized16|mass|mu0.01",
+   "per-client-quantum|amortized16|mass|mu0.1",
+   "per-client-quantum|amortized16|decay|mu0.01",
+   "per-client-quantum|amortized16|decay|mu0.1",
+   "per-client-quantum|amortized16|adam|mu0.01",
+   "per-client-quantum|amortized16|adam|mu0.1",
+   "per-client-quantum|amortized32|none|mu0.01",
+   "per-client-quantum|amortized32|none|mu0.1",
+   "per-client-quantum|amortized32|mass|mu0.01",
+   "per-client-quantum|amortized32|mass|mu0.1",
+   "per-client-quantum|amortized32|decay|mu0.01",
+   "per-client-quantum|amortized32|decay|mu0.1",
+   "per-client-quantum|amortized32|adam|mu0.01",
+   "per-client-quantum|amortized32|adam|mu0.1",
+   "per-client-quantum|amortized64|none|mu0.01",
+   "per-client-quantum|amortized64|none|mu0.1",
+   "per-client-quantum|amortized64|mass|mu0.01",
+   "per-client-quantum|amortized64|mass|mu0.1",
+   "per-client-quantum|amortized64|decay|mu0.01",
+   "per-client-quantum|amortized64|decay|mu0.1",
+   "per-client-quantum|amortized64|adam|mu0.01",
+   "per-client-quantum|amortized64|adam|mu0.1",
+   "per-client-quantum|amortized128|none|mu0.01",
+   "per-client-quantum|amortized128|none|mu0.1",
+   "per-client-quantum|amortized128|mass|mu0.01",
+   "per-client-quantum|amortized128|mass|mu0.1",
+   "per-client-quantum|amortized128|decay|mu0.01",
+   "per-client-quantum|amortized128|decay|mu0.1",
+   "per-client-quantum|amortized128|adam|mu0.01",
+   "per-client-quantum|amortized128|adam|mu0.1"
+  ],
+  "published-threshold": [
+   "published-threshold|uniform2|none|mu0.01",
+   "published-threshold|uniform2|none|mu0.1",
+   "published-threshold|uniform2|mass|mu0.01",
+   "published-threshold|uniform2|mass|mu0.1",
+   "published-threshold|uniform2|decay|mu0.01",
+   "published-threshold|uniform2|decay|mu0.1",
+   "published-threshold|uniform2|adam|mu0.01",
+   "published-threshold|uniform2|adam|mu0.1",
+   "published-threshold|uniform4|none|mu0.01",
+   "published-threshold|uniform4|none|mu0.1",
+   "published-threshold|uniform4|mass|mu0.01",
+   "published-threshold|uniform4|mass|mu0.1",
+   "published-threshold|uniform4|decay|mu0.01",
+   "published-threshold|uniform4|decay|mu0.1",
+   "published-threshold|uniform4|adam|mu0.01",
+   "published-threshold|uniform4|adam|mu0.1",
+   "published-threshold|uniform8|none|mu0.01",
+   "published-threshold|uniform8|none|mu0.1",
+   "published-threshold|uniform8|mass|mu0.01",
+   "published-threshold|uniform8|mass|mu0.1",
+   "published-threshold|uniform8|decay|mu0.01",
+   "published-threshold|uniform8|decay|mu0.1",
+   "published-threshold|uniform8|adam|mu0.01",
+   "published-threshold|uniform8|adam|mu0.1",
+   "published-threshold|uniform16|none|mu0.01",
+   "published-threshold|uniform16|none|mu0.1",
+   "published-threshold|uniform16|mass|mu0.01",
+   "published-threshold|uniform16|mass|mu0.1",
+   "published-threshold|uniform16|decay|mu0.01",
+   "published-threshold|uniform16|decay|mu0.1",
+   "published-threshold|uniform16|adam|mu0.01",
+   "published-threshold|uniform16|adam|mu0.1",
+   "published-threshold|uniform32|none|mu0.01",
+   "published-threshold|uniform32|none|mu0.1",
+   "published-threshold|uniform32|mass|mu0.01",
+   "published-threshold|uniform32|mass|mu0.1",
+   "published-threshold|uniform32|decay|mu0.01",
+   "published-threshold|uniform32|decay|mu0.1",
+   "published-threshold|uniform32|adam|mu0.01",
+   "published-threshold|uniform32|adam|mu0.1"
+  ]
+ },
+ "tests": [
+  {
+   "a": "per-client-quantum",
+   "b": "uniform-quantum",
+   "diff": 0.016561203341697174,
+   "ci": [
+    -0.013971939066109086,
+    0.047094345749503434
+   ],
+   "p": 0.25095223326182314
+  },
+  {
+   "a": "per-client-quantum",
+   "b": "published-threshold",
+   "diff": 0.13025435355051168,
+   "ci": [
+    0.09066952324687655,
+    0.1698391838541468
+   ],
+   "p": 3.9182854520045874e-05
+  },
+  {
+   "a": "uniform-quantum",
+   "b": "published-threshold",
+   "diff": 0.1136931502088145,
+   "ci": [
+    0.07595551535324088,
+    0.15143078506438812
+   ],
+   "p": 7.770720225345263e-05
+  },
+  {
+   "a": "uniform-quantum",
+   "b": "ref DRR-base",
+   "diff": 0.16020108612134637,
+   "ci": [
+    0.12787699438156913,
+    0.1925251778611236
+   ],
+   "p": 1.370853919689933e-06
+  },
+  {
+   "a": "per-client-quantum",
+   "b": "ref CAPE-as-submitted",
+   "diff": 0.10425268630667914,
+   "ci": [
+    0.06842948144356534,
+    0.14007589116979294
+   ],
+   "p": 0.00010120000133535273
+  },
+  {
+   "a": "uniform-quantum",
+   "b": "ref Threshold-0.3 (published)",
+   "diff": 0.2648980124977619,
+   "ci": [
+    0.20890014741002583,
+    0.320895877585498
+   ],
+   "p": 2.030074424044819e-06
+  }
+ ],
+ "rows": [
+  {
+   "seed": 1,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 65661,
+     "class_mix": [
+      0.10338,
+      0.18644,
+      0.06034,
+      0.02411,
+      0.05298,
+      0.20613,
+      0.11572,
+      0.25089
+     ],
+     "hw_mix": {
+      "appliance": 3,
+      "av": 6,
+      "camera": 23,
+      "gateway": 3,
+      "mcu": 13,
+      "sbc": 10
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 16800,
+     "class_mix": [
+      0.14345,
+      0.21161,
+      0.04768,
+      0.01065,
+      0.0503,
+      0.20179,
+      0.1031,
+      0.23143
+     ],
+     "hw_mix": {
+      "appliance": 1,
+      "av": 2,
+      "camera": 5,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 1
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.26279479096882413
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform16|adam|mu0.1",
+   "val_uniform-quantum": 0.4766574939667382,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.47931004595186005,
+   "tail_uniform-quantum": 0.4760708295275452,
+   "J_uniform-quantum": 93.6251597824,
+   "chosen_per-client-quantum": "per-client-quantum|amortized64|adam|mu0.01",
+   "val_per-client-quantum": 0.4935384826484285,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.4089268588566284,
+   "tail_per-client-quantum": 0.4627625964665357,
+   "J_per-client-quantum": 92.38285453440001,
+   "chosen_published-threshold": "published-threshold|uniform16|decay|mu0.01",
+   "val_published-threshold": 0.38404601825228524,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.354411173909427,
+   "tail_published-threshold": 0.354411173909427,
+   "J_published-threshold": 84.04740110848,
+   "test_ref Threshold-0.3 (published)": 0.03943149817480885,
+   "tail_ref Threshold-0.3 (published)": 0.03943149817480885,
+   "J_ref Threshold-0.3 (published)": 80.47149178880002,
+   "test_ref FedAvg-full": 0.2254357617155678,
+   "tail_ref FedAvg-full": 0.22543576171556784,
+   "J_ref FedAvg-full": 95.68325626304002,
+   "test_ref DRR-base": 0.2617942674204331,
+   "tail_ref DRR-base": 0.28216667129475237,
+   "J_ref DRR-base": 95.68325626304002,
+   "test_ref CAPE-as-submitted": 0.40689230662246095,
+   "tail_ref CAPE-as-submitted": 0.44087440197355277,
+   "J_ref CAPE-as-submitted": 93.33058076128
+  },
+  {
+   "seed": 2,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 68003,
+     "class_mix": [
+      0.11902,
+      0.1942,
+      0.06247,
+      0.02228,
+      0.05253,
+      0.21861,
+      0.11686,
+      0.21403
+     ],
+     "hw_mix": {
+      "appliance": 4,
+      "av": 7,
+      "camera": 20,
+      "gateway": 3,
+      "mcu": 15,
+      "sbc": 9
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 16004,
+     "class_mix": [
+      0.10197,
+      0.17127,
+      0.03955,
+      0.01825,
+      0.05424,
+      0.19033,
+      0.08942,
+      0.33498
+     ],
+     "hw_mix": {
+      "av": 1,
+      "camera": 5,
+      "gateway": 2,
+      "mcu": 4,
+      "sbc": 2
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.29777525330041704
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform4|adam|mu0.01",
+   "val_uniform-quantum": 0.5038474220663023,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.40329333573156256,
+   "tail_uniform-quantum": 0.312830882067643,
+   "J_uniform-quantum": 96.8152043264,
+   "chosen_per-client-quantum": "per-client-quantum|amortized64|adam|mu0.01",
+   "val_per-client-quantum": 0.4439274479259443,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.37259701789938304,
+   "tail_per-client-quantum": 0.40289966466890687,
+   "J_per-client-quantum": 88.83921338016,
+   "chosen_published-threshold": "published-threshold|uniform32|adam|mu0.1",
+   "val_published-threshold": 0.30288395321040956,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.2573896175191984,
+   "tail_published-threshold": 0.2573896175191984,
+   "J_published-threshold": 63.04554104831999,
+   "test_ref Threshold-0.3 (published)": 0.15282799318035753,
+   "tail_ref Threshold-0.3 (published)": 0.15282799318035753,
+   "J_ref Threshold-0.3 (published)": 77.49815493696002,
+   "test_ref FedAvg-full": 0.13112231162911744,
+   "tail_ref FedAvg-full": 0.13112231162911744,
+   "J_ref FedAvg-full": 91.95153368320001,
+   "test_ref DRR-base": 0.21062666738162017,
+   "tail_ref DRR-base": 0.2370216691377422,
+   "J_ref DRR-base": 91.95153368320001,
+   "test_ref CAPE-as-submitted": 0.23434191455586872,
+   "tail_ref CAPE-as-submitted": 0.32616655506117453,
+   "J_ref CAPE-as-submitted": 89.48537390592
+  },
+  {
+   "seed": 3,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 67276,
+     "class_mix": [
+      0.12293,
+      0.17122,
+      0.05955,
+      0.02297,
+      0.05622,
+      0.20892,
+      0.11958,
+      0.23863
+     ],
+     "hw_mix": {
+      "appliance": 3,
+      "av": 8,
+      "camera": 20,
+      "gateway": 3,
+      "mcu": 15,
+      "sbc": 9
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 14788,
+     "class_mix": [
+      0.07181,
+      0.23817,
+      0.05356,
+      0.01224,
+      0.04348,
+      0.24236,
+      0.08838,
+      0.25
+     ],
+     "hw_mix": {
+      "av": 1,
+      "camera": 7,
+      "mcu": 4,
+      "sbc": 2
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.3083550397694754
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform4|adam|mu0.01",
+   "val_uniform-quantum": 0.5199249465097566,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.3606365139985189,
+   "tail_uniform-quantum": 0.3454345914964384,
+   "J_uniform-quantum": 97.8008115968,
+   "chosen_per-client-quantum": "per-client-quantum|amortized128|adam|mu0.01",
+   "val_per-client-quantum": 0.46389611084495785,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.38643667505159607,
+   "tail_per-client-quantum": 0.3998217186033308,
+   "J_per-client-quantum": 91.78340915743999,
+   "chosen_published-threshold": "published-threshold|uniform8|mass|mu0.1",
+   "val_published-threshold": 0.353483841292653,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.25043362549914955,
+   "tail_published-threshold": 0.25043362549914955,
+   "J_published-threshold": 73.72128222463999,
+   "test_ref Threshold-0.3 (published)": 0.02875369257130911,
+   "tail_ref Threshold-0.3 (published)": 0.02875369257130911,
+   "J_ref Threshold-0.3 (published)": 78.15275537216,
+   "test_ref FedAvg-full": 0.11753898635473385,
+   "tail_ref FedAvg-full": 0.11753898635473385,
+   "J_ref FedAvg-full": 93.0091552384,
+   "test_ref DRR-base": 0.22469687574292094,
+   "tail_ref DRR-base": 0.2377490023023638,
+   "J_ref DRR-base": 93.0091552384,
+   "test_ref CAPE-as-submitted": 0.2608672435221609,
+   "tail_ref CAPE-as-submitted": 0.3266288234132527,
+   "J_ref CAPE-as-submitted": 90.18339471872
+  },
+  {
+   "seed": 4,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 66829,
+     "class_mix": [
+      0.11526,
+      0.18582,
+      0.04933,
+      0.02343,
+      0.04537,
+      0.21006,
+      0.11755,
+      0.25317
+     ],
+     "hw_mix": {
+      "appliance": 4,
+      "av": 8,
+      "camera": 19,
+      "gateway": 4,
+      "mcu": 15,
+      "sbc": 8
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 16800,
+     "class_mix": [
+      0.09387,
+      0.20589,
+      0.08798,
+      0.01274,
+      0.07911,
+      0.19179,
+      0.09929,
+      0.22935
+     ],
+     "hw_mix": {
+      "appliance": 1,
+      "av": 1,
+      "camera": 5,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 2
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.29297838600469084
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform8|adam|mu0.01",
+   "val_uniform-quantum": 0.5283706023361704,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.36636279280947986,
+   "tail_uniform-quantum": 0.3665816860908834,
+   "J_uniform-quantum": 86.71757782527999,
+   "chosen_per-client-quantum": "per-client-quantum|amortized32|mass|mu0.01",
+   "val_per-client-quantum": 0.5378175421969256,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.4003285131115048,
+   "tail_per-client-quantum": 0.3907001315195725,
+   "J_per-client-quantum": 86.08068678528,
+   "chosen_published-threshold": "published-threshold|uniform32|adam|mu0.01",
+   "val_published-threshold": 0.46254135298642934,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.2856148795542946,
+   "tail_published-threshold": 0.2856148795542946,
+   "J_published-threshold": 65.25962729471999,
+   "test_ref Threshold-0.3 (published)": 0.15854010177572736,
+   "tail_ref Threshold-0.3 (published)": 0.15854010177572736,
+   "J_ref Threshold-0.3 (published)": 76.62193407040002,
+   "test_ref FedAvg-full": 0.18261897620870815,
+   "tail_ref FedAvg-full": 0.18261897620870815,
+   "J_ref FedAvg-full": 90.72826162240001,
+   "test_ref DRR-base": 0.23338073123019515,
+   "tail_ref DRR-base": 0.24066844333966947,
+   "J_ref DRR-base": 90.72826162240001,
+   "test_ref CAPE-as-submitted": 0.29307181139128646,
+   "tail_ref CAPE-as-submitted": 0.3383545660097471,
+   "J_ref CAPE-as-submitted": 88.2684942896
+  },
+  {
+   "seed": 5,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 67721,
+     "class_mix": [
+      0.11999,
+      0.19334,
+      0.0578,
+      0.02476,
+      0.03909,
+      0.21032,
+      0.11524,
+      0.23947
+     ],
+     "hw_mix": {
+      "appliance": 2,
+      "av": 8,
+      "camera": 21,
+      "gateway": 4,
+      "mcu": 14,
+      "sbc": 9
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 14451,
+     "class_mix": [
+      0.08671,
+      0.16739,
+      0.07328,
+      0.01571,
+      0.10871,
+      0.21604,
+      0.10048,
+      0.23168
+     ],
+     "hw_mix": {
+      "av": 1,
+      "camera": 5,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 3
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.2613587649710501
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform16|adam|mu0.1",
+   "val_uniform-quantum": 0.5283488873606172,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.3851484068836777,
+   "tail_uniform-quantum": 0.37544712837151173,
+   "J_uniform-quantum": 93.32208790016,
+   "chosen_per-client-quantum": "per-client-quantum|amortized16|adam|mu0.01",
+   "val_per-client-quantum": 0.5165967634722608,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.4699673754722824,
+   "tail_per-client-quantum": 0.4392705920142247,
+   "J_per-client-quantum": 92.16891798016,
+   "chosen_published-threshold": "published-threshold|uniform16|mass|mu0.01",
+   "val_published-threshold": 0.4053025404983203,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.30177984187837453,
+   "tail_published-threshold": 0.30177984187837453,
+   "J_published-threshold": 84.4353368832,
+   "test_ref Threshold-0.3 (published)": 0.22130609504031223,
+   "tail_ref Threshold-0.3 (published)": 0.22130609504031223,
+   "J_ref Threshold-0.3 (published)": 79.80038808000002,
+   "test_ref FedAvg-full": 0.043779388709878624,
+   "tail_ref FedAvg-full": 0.043779388709878624,
+   "J_ref FedAvg-full": 95.41293205312002,
+   "test_ref DRR-base": 0.23162442538078237,
+   "tail_ref DRR-base": 0.2781022775215845,
+   "J_ref DRR-base": 95.41293205312002,
+   "test_ref CAPE-as-submitted": 0.3250076766897155,
+   "tail_ref CAPE-as-submitted": 0.4118304750007584,
+   "J_ref CAPE-as-submitted": 92.16891798016
+  },
+  {
+   "seed": 6,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 69017,
+     "class_mix": [
+      0.10809,
+      0.17674,
+      0.05796,
+      0.02269,
+      0.05171,
+      0.22193,
+      0.11932,
+      0.24156
+     ],
+     "hw_mix": {
+      "appliance": 4,
+      "av": 6,
+      "camera": 19,
+      "gateway": 4,
+      "mcu": 15,
+      "sbc": 10
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 16753,
+     "class_mix": [
+      0.19053,
+      0.2387,
+      0.05509,
+      0.02215,
+      0.04584,
+      0.15693,
+      0.09676,
+      0.194
+     ],
+     "hw_mix": {
+      "av": 2,
+      "camera": 6,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 1
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.37072138119360415
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform16|adam|mu0.1",
+   "val_uniform-quantum": 0.49535155629115335,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.3201573124302632,
+   "tail_uniform-quantum": 0.3129365748973073,
+   "J_uniform-quantum": 93.60572063232,
+   "chosen_per-client-quantum": "per-client-quantum|amortized16|adam|mu0.01",
+   "val_per-client-quantum": 0.45710350973299185,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.32621302020448156,
+   "tail_per-client-quantum": 0.31930514796050097,
+   "J_per-client-quantum": 94.0053969712,
+   "chosen_published-threshold": "published-threshold|uniform16|adam|mu0.1",
+   "val_published-threshold": 0.29732312219854345,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.22579589961601682,
+   "tail_published-threshold": 0.22579589961601682,
+   "J_published-threshold": 84.0279619584,
+   "test_ref Threshold-0.3 (published)": 0.06358491630454939,
+   "tail_ref Threshold-0.3 (published)": 0.06358491630454939,
+   "J_ref Threshold-0.3 (published)": 80.58332573696002,
+   "test_ref FedAvg-full": 0.120349654328262,
+   "tail_ref FedAvg-full": 0.12034965432826202,
+   "J_ref FedAvg-full": 96.1928161632,
+   "test_ref DRR-base": 0.17415460643239977,
+   "tail_ref DRR-base": 0.18072920185597974,
+   "J_ref DRR-base": 96.1928161632,
+   "test_ref CAPE-as-submitted": 0.24226444321469398,
+   "tail_ref CAPE-as-submitted": 0.2890364152495632,
+   "J_ref CAPE-as-submitted": 94.0053969712
+  },
+  {
+   "seed": 7,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 65351,
+     "class_mix": [
+      0.11134,
+      0.18255,
+      0.05275,
+      0.02266,
+      0.04361,
+      0.22041,
+      0.11789,
+      0.24879
+     ],
+     "hw_mix": {
+      "appliance": 3,
+      "av": 8,
+      "camera": 21,
+      "gateway": 4,
+      "mcu": 13,
+      "sbc": 9
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 16800,
+     "class_mix": [
+      0.10077,
+      0.22417,
+      0.07702,
+      0.02077,
+      0.08833,
+      0.18071,
+      0.09542,
+      0.2128
+     ],
+     "hw_mix": {
+      "av": 1,
+      "camera": 6,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 2
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.2784168593394233
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform4|adam|mu0.01",
+   "val_uniform-quantum": 0.4864830865703892,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.40966216912987696,
+   "tail_uniform-quantum": 0.3877655893761495,
+   "J_uniform-quantum": 100.92998524288001,
+   "chosen_per-client-quantum": "per-client-quantum|amortized128|adam|mu0.1",
+   "val_per-client-quantum": 0.4814756429346644,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.4499518632333975,
+   "tail_per-client-quantum": 0.4562340949468158,
+   "J_per-client-quantum": 94.82718645248,
+   "chosen_published-threshold": "published-threshold|uniform16|none|mu0.1",
+   "val_published-threshold": 0.3547215559158744,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.2306040495819241,
+   "tail_published-threshold": 0.2306040495819241,
+   "J_published-threshold": 84.75436487168,
+   "test_ref Threshold-0.3 (published)": 0.20134602055737955,
+   "tail_ref Threshold-0.3 (published)": 0.20134602055737955,
+   "J_ref Threshold-0.3 (published)": 80.82579736320002,
+   "test_ref FedAvg-full": 0.2123906451059246,
+   "tail_ref FedAvg-full": 0.2123906451059246,
+   "J_ref FedAvg-full": 96.07992318144001,
+   "test_ref DRR-base": 0.24780381058544648,
+   "tail_ref DRR-base": 0.2546215487895575,
+   "J_ref DRR-base": 96.07992318144001,
+   "test_ref CAPE-as-submitted": 0.2835067819294556,
+   "tail_ref CAPE-as-submitted": 0.30181628072867006,
+   "J_ref CAPE-as-submitted": 93.36917665248
+  },
+  {
+   "seed": 8,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 65833,
+     "class_mix": [
+      0.12009,
+      0.17301,
+      0.04378,
+      0.02367,
+      0.03813,
+      0.2265,
+      0.12085,
+      0.25398
+     ],
+     "hw_mix": {
+      "appliance": 4,
+      "av": 8,
+      "camera": 20,
+      "gateway": 3,
+      "mcu": 15,
+      "sbc": 8
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 16164,
+     "class_mix": [
+      0.08513,
+      0.24053,
+      0.12076,
+      0.01039,
+      0.11557,
+      0.1499,
+      0.08804,
+      0.18968
+     ],
+     "hw_mix": {
+      "av": 1,
+      "camera": 5,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 3
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.2563859190149103
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform16|adam|mu0.1",
+   "val_uniform-quantum": 0.5005858239356339,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.37939827952416944,
+   "tail_uniform-quantum": 0.37173167776992616,
+   "J_uniform-quantum": 87.06649409536,
+   "chosen_per-client-quantum": "per-client-quantum|amortized128|adam|mu0.01",
+   "val_per-client-quantum": 0.46093946195522834,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.3971478585672191,
+   "tail_per-client-quantum": 0.4144849438470864,
+   "J_per-client-quantum": 88.04391150592001,
+   "chosen_published-threshold": "published-threshold|uniform32|mass|mu0.1",
+   "val_published-threshold": 0.3487322149095773,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.24530530951768853,
+   "tail_published-threshold": 0.24530530951768853,
+   "J_published-threshold": 62.95281677311999,
+   "test_ref Threshold-0.3 (published)": 0.16124014855861155,
+   "tail_ref Threshold-0.3 (published)": 0.16124014855861155,
+   "J_ref Threshold-0.3 (published)": 75.41209408576002,
+   "test_ref FedAvg-full": 0.1735677732890191,
+   "tail_ref FedAvg-full": 0.1735677732890191,
+   "J_ref FedAvg-full": 89.10708710400002,
+   "test_ref DRR-base": 0.20407091067736632,
+   "tail_ref DRR-base": 0.23469341464979315,
+   "J_ref DRR-base": 89.10708710400002,
+   "test_ref CAPE-as-submitted": 0.33599373891566275,
+   "tail_ref CAPE-as-submitted": 0.3566064839965466,
+   "J_ref CAPE-as-submitted": 86.98883163136
+  },
+  {
+   "seed": 9,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 68381,
+     "class_mix": [
+      0.10393,
+      0.18464,
+      0.06141,
+      0.02517,
+      0.04939,
+      0.21785,
+      0.10893,
+      0.24868
+     ],
+     "hw_mix": {
+      "appliance": 3,
+      "av": 8,
+      "camera": 20,
+      "gateway": 4,
+      "mcu": 13,
+      "sbc": 10
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 15228,
+     "class_mix": [
+      0.15839,
+      0.20068,
+      0.04577,
+      0.01169,
+      0.05831,
+      0.1865,
+      0.12891,
+      0.20975
+     ],
+     "hw_mix": {
+      "av": 1,
+      "camera": 7,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 1
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.24627472336496065
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform16|adam|mu0.1",
+   "val_uniform-quantum": 0.49246247488694184,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.32049542112987095,
+   "tail_uniform-quantum": 0.3088567418648545,
+   "J_uniform-quantum": 98.14775100416,
+   "chosen_per-client-quantum": "per-client-quantum|amortized128|adam|mu0.1",
+   "val_per-client-quantum": 0.5186726551856463,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.3664057373335858,
+   "tail_per-client-quantum": 0.36625002063021433,
+   "J_per-client-quantum": 99.33551602176001,
+   "chosen_published-threshold": "published-threshold|uniform32|adam|mu0.01",
+   "val_published-threshold": 0.3672522534719077,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.3174407492680658,
+   "tail_published-threshold": 0.3174407492680658,
+   "J_published-threshold": 70.53926280191999,
+   "test_ref Threshold-0.3 (published)": 0.03145827612890342,
+   "tail_ref Threshold-0.3 (published)": 0.03145827612890342,
+   "J_ref Threshold-0.3 (published)": 84.14284356992002,
+   "test_ref FedAvg-full": 0.19187831370981764,
+   "tail_ref FedAvg-full": 0.19187831370981764,
+   "J_ref FedAvg-full": 100.55837623616002,
+   "test_ref DRR-base": 0.2537024106119864,
+   "tail_ref DRR-base": 0.2557551777785256,
+   "J_ref DRR-base": 100.55837623616002,
+   "test_ref CAPE-as-submitted": 0.2966771813093357,
+   "tail_ref CAPE-as-submitted": 0.3579716407597356,
+   "J_ref CAPE-as-submitted": 97.85317198304
+  },
+  {
+   "seed": 10,
+   "composition": {
+    "train": {
+     "n_devices": 58,
+     "n_rows": 64807,
+     "class_mix": [
+      0.12226,
+      0.17185,
+      0.05496,
+      0.0249,
+      0.04641,
+      0.21786,
+      0.11371,
+      0.24804
+     ],
+     "hw_mix": {
+      "appliance": 2,
+      "av": 9,
+      "camera": 19,
+      "gateway": 4,
+      "mcu": 15,
+      "sbc": 9
+     }
+    },
+    "validation": {
+     "n_devices": 14,
+     "n_rows": 16259,
+     "class_mix": [
+      0.06932,
+      0.2125,
+      0.08469,
+      0.01458,
+      0.0775,
+      0.18888,
+      0.10702,
+      0.24553
+     ],
+     "hw_mix": {
+      "appliance": 1,
+      "av": 1,
+      "camera": 5,
+      "gateway": 1,
+      "mcu": 4,
+      "sbc": 2
+     }
+    },
+    "test_devices": 24,
+    "holdout_label_shift": 0.3062634778529289
+   },
+   "chosen_uniform-quantum": "uniform-quantum|uniform16|adam|mu0.1",
+   "val_uniform-quantum": 0.5377058987098439,
+   "trials_uniform-quantum": 40,
+   "test_uniform-quantum": 0.4613268035245376,
+   "tail_uniform-quantum": 0.46051449353127316,
+   "J_uniform-quantum": 93.48494373376,
+   "chosen_per-client-quantum": "per-client-quantum|amortized16|adam|mu0.1",
+   "val_per-client-quantum": 0.5345312497846519,
+   "trials_per-client-quantum": 40,
+   "test_per-client-quantum": 0.4734281948007103,
+   "tail_per-client-quantum": 0.4524471577995855,
+   "J_per-client-quantum": 92.96719397376,
+   "chosen_published-threshold": "published-threshold|uniform16|decay|mu0.1",
+   "val_published-threshold": 0.41830067722314396,
+   "trials_published-threshold": 40,
+   "test_published-threshold": 0.2800844326815328,
+   "tail_published-threshold": 0.2800844326815328,
+   "J_published-threshold": 84.82972099584,
+   "test_ref Threshold-0.3 (published)": 0.17832221384423963,
+   "tail_ref Threshold-0.3 (published)": 0.17832221384423963,
+   "J_ref Threshold-0.3 (published)": 79.83220027264002,
+   "test_ref FedAvg-full": 0.027184427665758855,
+   "tail_ref FedAvg-full": 0.027184427665758855,
+   "J_ref FedAvg-full": 95.48934721088001,
+   "test_ref DRR-base": 0.24192551443720275,
+   "tail_ref DRR-base": 0.24858859285709092,
+   "J_ref DRR-base": 95.48934721088001,
+   "test_ref CAPE-as-submitted": 0.33025315331335703,
+   "tail_ref CAPE-as-submitted": 0.3357907347203641,
+   "J_ref CAPE-as-submitted": 92.96719397376
+  }
+ ]
+}

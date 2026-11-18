@@ -1,0 +1,1989 @@
+{
+ "regime": "R2f-bind",
+ "tau": 0.3,
+ "delta": 0.25,
+ "noise": 0.1,
+ "kappas": [
+  1.0,
+  1.25,
+  1.5,
+  2.0,
+  3.0
+ ],
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "summary": [
+  {
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0.0,
+   "worst_min_fraction": 0.006529866841468775,
+   "participations": 285.6
+  },
+  {
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0.0,
+   "worst_min_fraction": 0.020027741080102718,
+   "participations": 285.4
+  },
+  {
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0.0,
+   "worst_min_fraction": 0.09766852418225667,
+   "participations": 239.1
+  },
+  {
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0.0,
+   "worst_min_fraction": 0.09766852418225667,
+   "participations": 239.1
+  },
+  {
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 43.2,
+   "worst_min_fraction": -0.19289495953065147,
+   "participations": 268.8
+  },
+  {
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 2.4,
+   "worst_min_fraction": -0.042936639446417846,
+   "participations": 223.7
+  },
+  {
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 19.7,
+   "worst_min_fraction": -0.12791434477217897,
+   "participations": 239.1
+  },
+  {
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1.9,
+   "worst_min_fraction": -0.04031891263980013,
+   "participations": 217.8
+  },
+  {
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53.7,
+   "worst_min_fraction": -0.35711369266727716,
+   "participations": 236.9
+  },
+  {
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 2.7,
+   "worst_min_fraction": -0.11891361769728262,
+   "participations": 185.8
+  },
+  {
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53.7,
+   "worst_min_fraction": -0.3534972137266149,
+   "participations": 237.7
+  },
+  {
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1.4,
+   "worst_min_fraction": -0.08421977826446742,
+   "participations": 185.3
+  },
+  {
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53.7,
+   "worst_min_fraction": -0.8063288877442503,
+   "participations": 191.5
+  },
+  {
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 11.7,
+   "worst_min_fraction": -0.16851603983574712,
+   "participations": 149.4
+  },
+  {
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53.7,
+   "worst_min_fraction": -0.8046629516354866,
+   "participations": 191.8
+  },
+  {
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 12.2,
+   "worst_min_fraction": -0.14537500033872658,
+   "participations": 149.9
+  },
+  {
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53.7,
+   "worst_min_fraction": -0.947152343190619,
+   "participations": 128.1
+  },
+  {
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 35.5,
+   "worst_min_fraction": -0.3619267538251851,
+   "participations": 109.9
+  },
+  {
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53.7,
+   "worst_min_fraction": -0.9595625921423674,
+   "participations": 128.1
+  },
+  {
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 36.2,
+   "worst_min_fraction": -0.3598451500280712,
+   "participations": 110.6
+  }
+ ],
+ "rows": [
+  {
+   "seed": 1,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 283,
+   "min_true_fraction": 0.02520257066246804
+  },
+  {
+   "seed": 2,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 283,
+   "min_true_fraction": 0.020027741080102718
+  },
+  {
+   "seed": 3,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 278,
+   "min_true_fraction": 0.030987354754242157
+  },
+  {
+   "seed": 4,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 277,
+   "min_true_fraction": 0.029458510607286468
+  },
+  {
+   "seed": 5,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 299,
+   "min_true_fraction": 0.006529866841468775
+  },
+  {
+   "seed": 6,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 283,
+   "min_true_fraction": 0.034129488914621024
+  },
+  {
+   "seed": 7,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 290,
+   "min_true_fraction": 0.0342231551667151
+  },
+  {
+   "seed": 8,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 283,
+   "min_true_fraction": 0.028564530235905706
+  },
+  {
+   "seed": 9,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 290,
+   "min_true_fraction": 0.035918160606323
+  },
+  {
+   "seed": 10,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 290,
+   "min_true_fraction": 0.032524045636612056
+  },
+  {
+   "seed": 1,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 283,
+   "min_true_fraction": 0.02520257066246804
+  },
+  {
+   "seed": 2,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 283,
+   "min_true_fraction": 0.020027741080102718
+  },
+  {
+   "seed": 3,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 278,
+   "min_true_fraction": 0.030987354754242157
+  },
+  {
+   "seed": 4,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 277,
+   "min_true_fraction": 0.029458510607286468
+  },
+  {
+   "seed": 5,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 298,
+   "min_true_fraction": 0.026829656651097315
+  },
+  {
+   "seed": 6,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 282,
+   "min_true_fraction": 0.029545272119753378
+  },
+  {
+   "seed": 7,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 290,
+   "min_true_fraction": 0.0342231551667151
+  },
+  {
+   "seed": 8,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 283,
+   "min_true_fraction": 0.028564530235905706
+  },
+  {
+   "seed": 9,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 290,
+   "min_true_fraction": 0.035918160606323
+  },
+  {
+   "seed": 10,
+   "kappa": 1.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 290,
+   "min_true_fraction": 0.032524045636612056
+  },
+  {
+   "seed": 1,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 238,
+   "min_true_fraction": 0.10931566976496795
+  },
+  {
+   "seed": 2,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 237,
+   "min_true_fraction": 0.12022348201127324
+  },
+  {
+   "seed": 3,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 233,
+   "min_true_fraction": 0.12879619626576952
+  },
+  {
+   "seed": 4,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 233,
+   "min_true_fraction": 0.13740796998913485
+  },
+  {
+   "seed": 5,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 248,
+   "min_true_fraction": 0.10616732248558851
+  },
+  {
+   "seed": 6,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 237,
+   "min_true_fraction": 0.09766852418225667
+  },
+  {
+   "seed": 7,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 243,
+   "min_true_fraction": 0.1265218298835551
+  },
+  {
+   "seed": 8,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 237,
+   "min_true_fraction": 0.10844368532124914
+  },
+  {
+   "seed": 9,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 243,
+   "min_true_fraction": 0.11147621167949737
+  },
+  {
+   "seed": 10,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 0,
+   "participations": 242,
+   "min_true_fraction": 0.11218115415307639
+  },
+  {
+   "seed": 1,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 238,
+   "min_true_fraction": 0.10931566976496795
+  },
+  {
+   "seed": 2,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 237,
+   "min_true_fraction": 0.12022348201127324
+  },
+  {
+   "seed": 3,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 233,
+   "min_true_fraction": 0.12879619626576952
+  },
+  {
+   "seed": 4,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 233,
+   "min_true_fraction": 0.13740796998913485
+  },
+  {
+   "seed": 5,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 248,
+   "min_true_fraction": 0.10616732248558851
+  },
+  {
+   "seed": 6,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 237,
+   "min_true_fraction": 0.09766852418225667
+  },
+  {
+   "seed": 7,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 243,
+   "min_true_fraction": 0.1265218298835551
+  },
+  {
+   "seed": 8,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 237,
+   "min_true_fraction": 0.10844368532124914
+  },
+  {
+   "seed": 9,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 243,
+   "min_true_fraction": 0.11147621167949737
+  },
+  {
+   "seed": 10,
+   "kappa": 1.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 242,
+   "min_true_fraction": 0.11218115415307639
+  },
+  {
+   "seed": 1,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 40,
+   "participations": 266,
+   "min_true_fraction": -0.19289495953065147
+  },
+  {
+   "seed": 2,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 37,
+   "participations": 267,
+   "min_true_fraction": -0.16641242883862106
+  },
+  {
+   "seed": 3,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 44,
+   "participations": 263,
+   "min_true_fraction": -0.18969744658847892
+  },
+  {
+   "seed": 4,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 48,
+   "participations": 260,
+   "min_true_fraction": -0.16799122490702373
+  },
+  {
+   "seed": 5,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 44,
+   "participations": 281,
+   "min_true_fraction": -0.1811211764611697
+  },
+  {
+   "seed": 6,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 45,
+   "participations": 266,
+   "min_true_fraction": -0.1682912064884244
+  },
+  {
+   "seed": 7,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 43,
+   "participations": 273,
+   "min_true_fraction": -0.17072478323956466
+  },
+  {
+   "seed": 8,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 41,
+   "participations": 267,
+   "min_true_fraction": -0.15646881594412884
+  },
+  {
+   "seed": 9,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 50,
+   "participations": 271,
+   "min_true_fraction": -0.19186539309866332
+  },
+  {
+   "seed": 10,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 40,
+   "participations": 274,
+   "min_true_fraction": -0.1795734869358295
+  },
+  {
+   "seed": 1,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 220,
+   "min_true_fraction": 0.0004994308398716047
+  },
+  {
+   "seed": 2,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 3,
+   "participations": 223,
+   "min_true_fraction": -0.03795997679869353
+  },
+  {
+   "seed": 3,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 3,
+   "participations": 217,
+   "min_true_fraction": -0.02356869853603924
+  },
+  {
+   "seed": 4,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 5,
+   "participations": 218,
+   "min_true_fraction": -0.02751183711496981
+  },
+  {
+   "seed": 5,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 3,
+   "participations": 236,
+   "min_true_fraction": -0.013875176536019024
+  },
+  {
+   "seed": 6,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 219,
+   "min_true_fraction": -0.042936639446417846
+  },
+  {
+   "seed": 7,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 227,
+   "min_true_fraction": -0.013102528083423156
+  },
+  {
+   "seed": 8,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 3,
+   "participations": 223,
+   "min_true_fraction": -0.016671735174161942
+  },
+  {
+   "seed": 9,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 222,
+   "min_true_fraction": -0.0016475963661748442
+  },
+  {
+   "seed": 10,
+   "kappa": 1.25,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 232,
+   "min_true_fraction": -0.029111790439153004
+  },
+  {
+   "seed": 1,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 23,
+   "participations": 238,
+   "min_true_fraction": -0.11335541279378994
+  },
+  {
+   "seed": 2,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 21,
+   "participations": 237,
+   "min_true_fraction": -0.09972064748590825
+  },
+  {
+   "seed": 3,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 19,
+   "participations": 233,
+   "min_true_fraction": -0.089004754667788
+  },
+  {
+   "seed": 4,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 20,
+   "participations": 233,
+   "min_true_fraction": -0.07824003751358138
+  },
+  {
+   "seed": 5,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 17,
+   "participations": 248,
+   "min_true_fraction": -0.11729084689301426
+  },
+  {
+   "seed": 6,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 21,
+   "participations": 237,
+   "min_true_fraction": -0.12791434477217897
+  },
+  {
+   "seed": 7,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 19,
+   "participations": 243,
+   "min_true_fraction": -0.09184771264555612
+  },
+  {
+   "seed": 8,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 19,
+   "participations": 237,
+   "min_true_fraction": -0.11444539334843853
+  },
+  {
+   "seed": 9,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 23,
+   "participations": 243,
+   "min_true_fraction": -0.1106547354006282
+  },
+  {
+   "seed": 10,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 15,
+   "participations": 242,
+   "min_true_fraction": -0.10977355730865443
+  },
+  {
+   "seed": 1,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 214,
+   "min_true_fraction": -0.028308561319931615
+  },
+  {
+   "seed": 2,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 216,
+   "min_true_fraction": -0.022530114430094988
+  },
+  {
+   "seed": 3,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 3,
+   "participations": 212,
+   "min_true_fraction": -0.03946167599853936
+  },
+  {
+   "seed": 4,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 3,
+   "participations": 212,
+   "min_true_fraction": -0.02708554518547729
+  },
+  {
+   "seed": 5,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 227,
+   "min_true_fraction": -0.03287924568222509
+  },
+  {
+   "seed": 6,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 5,
+   "participations": 216,
+   "min_true_fraction": -0.03757991889649925
+  },
+  {
+   "seed": 7,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 221,
+   "min_true_fraction": 0.0013209830753361177
+  },
+  {
+   "seed": 8,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 216,
+   "min_true_fraction": -0.04031891263980013
+  },
+  {
+   "seed": 9,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 219,
+   "min_true_fraction": -0.01006058875461916
+  },
+  {
+   "seed": 10,
+   "kappa": 1.25,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 225,
+   "min_true_fraction": -0.0010281243946439582
+  },
+  {
+   "seed": 1,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 236,
+   "min_true_fraction": -0.35711369266727716
+  },
+  {
+   "seed": 2,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 235,
+   "min_true_fraction": -0.34733360276135067
+  },
+  {
+   "seed": 3,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 233,
+   "min_true_fraction": -0.3111242478339869
+  },
+  {
+   "seed": 4,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 229,
+   "min_true_fraction": -0.3317724914057681
+  },
+  {
+   "seed": 5,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 54,
+   "participations": 247,
+   "min_true_fraction": -0.3245787728642286
+  },
+  {
+   "seed": 6,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 236,
+   "min_true_fraction": -0.32905034842478126
+  },
+  {
+   "seed": 7,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 240,
+   "min_true_fraction": -0.3477950876029795
+  },
+  {
+   "seed": 8,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 234,
+   "min_true_fraction": -0.3366589499654978
+  },
+  {
+   "seed": 9,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 240,
+   "min_true_fraction": -0.29579890251009605
+  },
+  {
+   "seed": 10,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 239,
+   "min_true_fraction": -0.27940790947130806
+  },
+  {
+   "seed": 1,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 4,
+   "participations": 185,
+   "min_true_fraction": -0.11891361769728262
+  },
+  {
+   "seed": 2,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 184,
+   "min_true_fraction": -0.04723752137135731
+  },
+  {
+   "seed": 3,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 180,
+   "min_true_fraction": 0.0013121987519413493
+  },
+  {
+   "seed": 4,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 179,
+   "min_true_fraction": -0.017207642158924782
+  },
+  {
+   "seed": 5,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 193,
+   "min_true_fraction": -0.003255500256542473
+  },
+  {
+   "seed": 6,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 183,
+   "min_true_fraction": -0.005907097366714044
+  },
+  {
+   "seed": 7,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 5,
+   "participations": 190,
+   "min_true_fraction": -0.04112071286617861
+  },
+  {
+   "seed": 8,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 4,
+   "participations": 185,
+   "min_true_fraction": -0.0567437703203307
+  },
+  {
+   "seed": 9,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 4,
+   "participations": 189,
+   "min_true_fraction": -0.11592434738710496
+  },
+  {
+   "seed": 10,
+   "kappa": 1.5,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 4,
+   "participations": 190,
+   "min_true_fraction": -0.07493889532019328
+  },
+  {
+   "seed": 1,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 237,
+   "min_true_fraction": -0.3360264953525482
+  },
+  {
+   "seed": 2,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 234,
+   "min_true_fraction": -0.31966477698309004
+  },
+  {
+   "seed": 3,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 232,
+   "min_true_fraction": -0.3068057056013457
+  },
+  {
+   "seed": 4,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 229,
+   "min_true_fraction": -0.2938880450162979
+  },
+  {
+   "seed": 5,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 54,
+   "participations": 248,
+   "min_true_fraction": -0.34074901627161724
+  },
+  {
+   "seed": 6,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 235,
+   "min_true_fraction": -0.3534972137266149
+  },
+  {
+   "seed": 7,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 242,
+   "min_true_fraction": -0.3102172551746673
+  },
+  {
+   "seed": 8,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 236,
+   "min_true_fraction": -0.33733447201812633
+  },
+  {
+   "seed": 9,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 242,
+   "min_true_fraction": -0.33278568248075396
+  },
+  {
+   "seed": 10,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 242,
+   "min_true_fraction": -0.3317282687703855
+  },
+  {
+   "seed": 1,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 183,
+   "min_true_fraction": -0.01403722492597283
+  },
+  {
+   "seed": 2,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 183,
+   "min_true_fraction": -0.02272282447589276
+  },
+  {
+   "seed": 3,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 180,
+   "min_true_fraction": 0.0006676476474839942
+  },
+  {
+   "seed": 4,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 178,
+   "min_true_fraction": 0.0028509639584992958
+  },
+  {
+   "seed": 5,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 0,
+   "participations": 193,
+   "min_true_fraction": 0.009595557134790425
+  },
+  {
+   "seed": 6,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 1,
+   "participations": 183,
+   "min_true_fraction": -0.003810167889530385
+  },
+  {
+   "seed": 7,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 4,
+   "participations": 190,
+   "min_true_fraction": -0.054380328491589025
+  },
+  {
+   "seed": 8,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 185,
+   "min_true_fraction": -0.04184120513406199
+  },
+  {
+   "seed": 9,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 2,
+   "participations": 188,
+   "min_true_fraction": -0.005526719508287288
+  },
+  {
+   "seed": 10,
+   "kappa": 1.5,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 3,
+   "participations": 190,
+   "min_true_fraction": -0.08421977826446742
+  },
+  {
+   "seed": 1,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 192,
+   "min_true_fraction": -0.7513994766960146
+  },
+  {
+   "seed": 2,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 191,
+   "min_true_fraction": -0.7826822029303391
+  },
+  {
+   "seed": 3,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 187,
+   "min_true_fraction": -0.7441636483504157
+  },
+  {
+   "seed": 4,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 184,
+   "min_true_fraction": -0.7573194745602962
+  },
+  {
+   "seed": 5,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 54,
+   "participations": 199,
+   "min_true_fraction": -0.7376213631245376
+  },
+  {
+   "seed": 6,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 188,
+   "min_true_fraction": -0.8049333897433918
+  },
+  {
+   "seed": 7,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 195,
+   "min_true_fraction": -0.7467032011459834
+  },
+  {
+   "seed": 8,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 189,
+   "min_true_fraction": -0.8063288877442503
+  },
+  {
+   "seed": 9,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 195,
+   "min_true_fraction": -0.7668046489707463
+  },
+  {
+   "seed": 10,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 195,
+   "min_true_fraction": -0.7791421374583418
+  },
+  {
+   "seed": 1,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 12,
+   "participations": 149,
+   "min_true_fraction": -0.13090139109386656
+  },
+  {
+   "seed": 2,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 11,
+   "participations": 148,
+   "min_true_fraction": -0.059435656689311805
+  },
+  {
+   "seed": 3,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 12,
+   "participations": 146,
+   "min_true_fraction": -0.1490388152110412
+  },
+  {
+   "seed": 4,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 15,
+   "participations": 146,
+   "min_true_fraction": -0.16851603983574712
+  },
+  {
+   "seed": 5,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 10,
+   "participations": 155,
+   "min_true_fraction": -0.11127810202717248
+  },
+  {
+   "seed": 6,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 13,
+   "participations": 148,
+   "min_true_fraction": -0.09553989241413798
+  },
+  {
+   "seed": 7,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 10,
+   "participations": 151,
+   "min_true_fraction": -0.1241202042076307
+  },
+  {
+   "seed": 8,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 12,
+   "participations": 148,
+   "min_true_fraction": -0.10305511266655228
+  },
+  {
+   "seed": 9,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 12,
+   "participations": 152,
+   "min_true_fraction": -0.09240524489006402
+  },
+  {
+   "seed": 10,
+   "kappa": 2.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 10,
+   "participations": 151,
+   "min_true_fraction": -0.08637988943738809
+  },
+  {
+   "seed": 1,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 192,
+   "min_true_fraction": -0.7813686604700643
+  },
+  {
+   "seed": 2,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 191,
+   "min_true_fraction": -0.7595530359774534
+  },
+  {
+   "seed": 3,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 189,
+   "min_true_fraction": -0.742407607468461
+  },
+  {
+   "seed": 4,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 184,
+   "min_true_fraction": -0.7251840600217303
+  },
+  {
+   "seed": 5,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 54,
+   "participations": 198,
+   "min_true_fraction": -0.787665355028823
+  },
+  {
+   "seed": 6,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 188,
+   "min_true_fraction": -0.8046629516354866
+  },
+  {
+   "seed": 7,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 195,
+   "min_true_fraction": -0.7469563402328899
+  },
+  {
+   "seed": 8,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 191,
+   "min_true_fraction": -0.7831126293575017
+  },
+  {
+   "seed": 9,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 196,
+   "min_true_fraction": -0.7770475766410053
+  },
+  {
+   "seed": 10,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 194,
+   "min_true_fraction": -0.7756376916938473
+  },
+  {
+   "seed": 1,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 13,
+   "participations": 149,
+   "min_true_fraction": -0.09953138331110438
+  },
+  {
+   "seed": 2,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 11,
+   "participations": 149,
+   "min_true_fraction": -0.14537500033872658
+  },
+  {
+   "seed": 3,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 10,
+   "participations": 146,
+   "min_true_fraction": -0.05784314358680335
+  },
+  {
+   "seed": 4,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 13,
+   "participations": 146,
+   "min_true_fraction": -0.12809142740426305
+  },
+  {
+   "seed": 5,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 12,
+   "participations": 156,
+   "min_true_fraction": -0.13351689462123875
+  },
+  {
+   "seed": 6,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 14,
+   "participations": 148,
+   "min_true_fraction": -0.11329901634398157
+  },
+  {
+   "seed": 7,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 14,
+   "participations": 152,
+   "min_true_fraction": -0.1339412908870404
+  },
+  {
+   "seed": 8,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 12,
+   "participations": 149,
+   "min_true_fraction": -0.14083536304663938
+  },
+  {
+   "seed": 9,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 12,
+   "participations": 152,
+   "min_true_fraction": -0.10429418033699688
+  },
+  {
+   "seed": 10,
+   "kappa": 2.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 11,
+   "participations": 152,
+   "min_true_fraction": -0.05877540241939908
+  },
+  {
+   "seed": 1,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 127,
+   "min_true_fraction": -0.631690192331614
+  },
+  {
+   "seed": 2,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 127,
+   "min_true_fraction": -0.6155806189412995
+  },
+  {
+   "seed": 3,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 124,
+   "min_true_fraction": -0.7237344454582174
+  },
+  {
+   "seed": 4,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 126,
+   "min_true_fraction": -0.7267877308990262
+  },
+  {
+   "seed": 5,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 54,
+   "participations": 132,
+   "min_true_fraction": -0.6112528656434881
+  },
+  {
+   "seed": 6,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 127,
+   "min_true_fraction": -0.7023794082545135
+  },
+  {
+   "seed": 7,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 130,
+   "min_true_fraction": -0.647275746805526
+  },
+  {
+   "seed": 8,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 128,
+   "min_true_fraction": -0.947152343190619
+  },
+  {
+   "seed": 9,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 130,
+   "min_true_fraction": -0.6700280544661866
+  },
+  {
+   "seed": 10,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 130,
+   "min_true_fraction": -0.6964295653401905
+  },
+  {
+   "seed": 1,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 39,
+   "participations": 111,
+   "min_true_fraction": -0.3619267538251851
+  },
+  {
+   "seed": 2,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 34,
+   "participations": 108,
+   "min_true_fraction": -0.358393703544015
+  },
+  {
+   "seed": 3,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 37,
+   "participations": 108,
+   "min_true_fraction": -0.3069068285082119
+  },
+  {
+   "seed": 4,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 34,
+   "participations": 107,
+   "min_true_fraction": -0.3467460233278597
+  },
+  {
+   "seed": 5,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 36,
+   "participations": 114,
+   "min_true_fraction": -0.3601227516241332
+  },
+  {
+   "seed": 6,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 35,
+   "participations": 109,
+   "min_true_fraction": -0.3596626539572147
+  },
+  {
+   "seed": 7,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 36,
+   "participations": 111,
+   "min_true_fraction": -0.35474238949729653
+  },
+  {
+   "seed": 8,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 35,
+   "participations": 110,
+   "min_true_fraction": -0.3603286669895806
+  },
+  {
+   "seed": 9,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 37,
+   "participations": 112,
+   "min_true_fraction": -0.3372824310851183
+  },
+  {
+   "seed": 10,
+   "kappa": 3.0,
+   "policy": "deficit round robin",
+   "client_check": true,
+   "depleted": 32,
+   "participations": 109,
+   "min_true_fraction": -0.3369391220974781
+  },
+  {
+   "seed": 1,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 127,
+   "min_true_fraction": -0.6492970749666566
+  },
+  {
+   "seed": 2,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 127,
+   "min_true_fraction": -0.7180625005080898
+  },
+  {
+   "seed": 3,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 124,
+   "min_true_fraction": -0.5867647153802049
+  },
+  {
+   "seed": 4,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 126,
+   "min_true_fraction": -0.6921371411063946
+  },
+  {
+   "seed": 5,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 54,
+   "participations": 132,
+   "min_true_fraction": -0.7002753419318579
+  },
+  {
+   "seed": 6,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 127,
+   "min_true_fraction": -0.6699485245159724
+  },
+  {
+   "seed": 7,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 131,
+   "min_true_fraction": -0.9595625921423674
+  },
+  {
+   "seed": 8,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 127,
+   "min_true_fraction": -0.711253044569959
+  },
+  {
+   "seed": 9,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 55,
+   "participations": 130,
+   "min_true_fraction": -0.6564412705054952
+  },
+  {
+   "seed": 10,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": false,
+   "depleted": 53,
+   "participations": 130,
+   "min_true_fraction": -0.5308976920918376
+  },
+  {
+   "seed": 1,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 39,
+   "participations": 111,
+   "min_true_fraction": -0.35810969276302845
+  },
+  {
+   "seed": 2,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 36,
+   "participations": 110,
+   "min_true_fraction": -0.3441041367686937
+  },
+  {
+   "seed": 3,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 37,
+   "participations": 108,
+   "min_true_fraction": -0.3520461162354512
+  },
+  {
+   "seed": 4,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 33,
+   "participations": 106,
+   "min_true_fraction": -0.3589561174493105
+  },
+  {
+   "seed": 5,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 38,
+   "participations": 116,
+   "min_true_fraction": -0.3463360443765681
+  },
+  {
+   "seed": 6,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 35,
+   "participations": 109,
+   "min_true_fraction": -0.359771862432381
+  },
+  {
+   "seed": 7,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 37,
+   "participations": 113,
+   "min_true_fraction": -0.3423573858574229
+  },
+  {
+   "seed": 8,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 35,
+   "participations": 109,
+   "min_true_fraction": -0.3597301961644162
+  },
+  {
+   "seed": 9,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 37,
+   "participations": 112,
+   "min_true_fraction": -0.3598451500280712
+  },
+  {
+   "seed": 10,
+   "kappa": 3.0,
+   "policy": "state-of-charge gating",
+   "client_check": true,
+   "depleted": 35,
+   "participations": 112,
+   "min_true_fraction": -0.35220935210128274
+  }
+ ]
+}

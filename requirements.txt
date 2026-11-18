@@ -1,0 +1,10 @@
+# Versions used for the runs reported in the article (Python 3.13, CPU only).
+# Other recent versions should run the code; exact numbers are only promised
+# for these.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+pyarrow==26.0.1
+scikit-learn==1.9.1
+torch==2.15.0
+matplotlib==3.11.2

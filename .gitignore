@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/cic_iot_diad_2024/
+data/ciciot2023/
+data/diad_federated/
+data/clean_ciciot2023/
+logs/
+.DS_Store

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "ResFed-IDS: code and run outputs for 'Preserving Devices Without Calibrating Energy'"
+type: software
+repository-code: "https://github.com/drsajjadkhan19/resfed-ids-sensors"
+license: MIT
+authors:
+  - family-names: Kante
+    given-names: Seidy
+  - family-names: Kucuk
+    given-names: Kerem
+  - family-names: Khan
+    given-names: Sajjad Ahmad
+  - family-names: Konyar
+    given-names: Mehmet Zeki
+  - family-names: Ünlü
+    given-names: Alperen
+  - family-names: Asshad
+    given-names: Muhammad
+preferred-citation:
+  type: article
+  title: "Preserving Devices Without Calibrating Energy: Bounded Guarantees and Service Order in Two-Level Resource-Aware Federated Intrusion Detection for the Internet of Things"
+  journal: "Sensors"
+  authors:
+    - family-names: Kante
+      given-names: Seidy
+    - family-names: Kucuk
+      given-names: Kerem
+    - family-names: Khan
+      given-names: Sajjad Ahmad
+    - family-names: Konyar
+      given-names: Mehmet Zeki
+    - family-names: Ünlü
+      given-names: Alperen
+    - family-names: Asshad
+      given-names: Muhammad

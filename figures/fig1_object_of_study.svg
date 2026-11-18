@@ -1,0 +1,59 @@
+<svg width="800" height="380" viewBox="0 0 800 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="380" fill="white"/>
+<rect x="20.6" y="100.6" width="126.8" height="56.8" rx="4.4" fill="#F2F2F5" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" letter-spacing="0em"><tspan x="44.1416" y="123.93">finite energy</tspan></text>
+<path d="M176.495 129.495C176.768 129.222 176.768 128.778 176.495 128.505L172.04 124.05C171.767 123.777 171.324 123.777 171.05 124.05C170.777 124.324 170.777 124.767 171.05 125.04L175.01 129L171.05 132.96C170.777 133.233 170.777 133.676 171.05 133.95C171.324 134.223 171.767 134.223 172.04 133.95L176.495 129.495ZM150 129V129.7H176V129V128.3H150V129Z" fill="#1A1A1F"/>
+<rect x="178.6" y="100.6" width="126.8" height="56.8" rx="4.4" fill="#F2F2F5" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" letter-spacing="0em"><tspan x="201.219" y="123.93">participation</tspan><tspan x="222.884" y="141.93">policy</tspan></text>
+<path d="M334.495 129.495C334.768 129.222 334.768 128.778 334.495 128.505L330.04 124.05C329.767 123.777 329.324 123.777 329.05 124.05C328.777 124.324 328.777 124.767 329.05 125.04L333.01 129L329.05 132.96C328.777 133.233 328.777 133.676 329.05 133.95C329.324 134.223 329.767 134.223 330.04 133.95L334.495 129.495ZM308 129V129.7H334V129V128.3H308V129Z" fill="#1A1A1F"/>
+<rect x="336.6" y="100.6" width="126.8" height="56.8" rx="4.4" fill="#F2F2F5" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" letter-spacing="0em"><tspan x="366.836" y="123.93">local work</tspan></text>
+<path d="M492.495 129.495C492.768 129.222 492.768 128.778 492.495 128.505L488.04 124.05C487.767 123.777 487.324 123.777 487.05 124.05C486.777 124.324 486.777 124.767 487.05 125.04L491.01 129L487.05 132.96C486.777 133.233 486.777 133.676 487.05 133.95C487.324 134.223 487.767 134.223 488.04 133.95L492.495 129.495ZM466 129V129.7H492V129V128.3H466V129Z" fill="#1A1A1F"/>
+<rect x="494.6" y="100.6" width="126.8" height="56.8" rx="4.4" fill="#F2F2F5" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" letter-spacing="0em"><tspan x="515.285" y="123.93">server update</tspan><tspan x="545.271" y="141.93">rule</tspan></text>
+<path d="M650.495 129.495C650.768 129.222 650.768 128.778 650.495 128.505L646.04 124.05C645.767 123.777 645.324 123.777 645.05 124.05C644.777 124.324 644.777 124.767 645.05 125.04L649.01 129L645.05 132.96C644.777 133.233 644.777 133.676 645.05 133.95C645.324 134.223 645.767 134.223 646.04 133.95L650.495 129.495ZM624 129V129.7H650V129V128.3H624V129Z" fill="#1A1A1F"/>
+<rect x="653.1" y="101.1" width="125.8" height="55.8" rx="3.9" fill="#DBDEE3" stroke="#1A1A1F" stroke-width="2.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" font-weight="bold" letter-spacing="0em"><tspan x="685.099" y="123.93">terminal</tspan><tspan x="694.027" y="141.93">model</tspan></text>
+<path d="M241.972 159.351C241.613 159.366 241.335 159.67 241.351 160.028L241.605 165.873C241.62 166.231 241.924 166.509 242.282 166.494C242.641 166.478 242.919 166.175 242.903 165.816L242.678 160.621L247.873 160.395C248.231 160.38 248.509 160.076 248.494 159.718C248.478 159.359 248.175 159.081 247.816 159.097L241.972 159.351ZM558 160L557.561 159.521C542.677 173.165 519.298 183.443 491.594 190.307C463.904 197.167 431.957 200.6 400 200.6C368.043 200.6 336.096 197.167 308.406 190.307C280.702 183.443 257.323 173.165 242.439 159.521L242 160L241.561 160.479C256.677 174.335 280.298 184.682 308.094 191.568C335.904 198.458 367.957 201.9 400 201.9C432.043 201.9 464.096 198.458 491.906 191.568C519.702 184.682 543.323 174.335 558.439 160.479L558 160Z" fill="#8C8C94"/>
+<text fill="#8C8C94" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-style="italic" letter-spacing="0em"><tspan x="370.896" y="212.906">next round</tspan></text>
+<rect x="10.7" y="74.7" width="304.6" height="96.6" rx="4.3" stroke="#1F5EA8" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text fill="#1F5EA8" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="14" font-weight="bold" letter-spacing="0em"><tspan x="126.824" y="26.168">two guards</tspan></text>
+<text fill="#1F5EA8" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" letter-spacing="0em"><tspan x="64.2939" y="44.906">the server filters on believed charge;</tspan><tspan x="59.4697" y="59.906">the client refuses on measured charge</tspan></text>
+<circle cx="212" cy="89" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="208.782" y="89.906">3</tspan></text>
+<circle cx="242" cy="89" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="238.782" y="89.906">4</tspan></text>
+<circle cx="272" cy="89" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="268.782" y="89.906">5</tspan></text>
+<circle cx="701" cy="89" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="697.782" y="89.906">1</tspan></text>
+<circle cx="731" cy="89" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="727.782" y="89.906">2</tspan></text>
+<circle cx="31" cy="260" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="27.7817" y="260.906">1</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" letter-spacing="0em"><tspan x="110.658" y="260.906"> The deployed model is reported, not an average </tspan><tspan x="50" y="275.906">over the last rounds.</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="50" y="260.906">Endpoint.</tspan></text>
+<circle cx="31" cy="300" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="27.7817" y="300.906">2</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" letter-spacing="0em"><tspan x="149.48" y="300.906"> The held-out devices are redrawn for every </tspan><tspan x="50" y="315.906">seed.</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="50" y="300.906">Evaluation split.</tspan></text>
+<circle cx="431" cy="260" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="427.782" y="260.906">3</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" letter-spacing="0em"><tspan x="553.365" y="260.906"> Admits a client on the charge the cost </tspan><tspan x="450" y="275.906">model believes it has.</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="450" y="260.906">Server-side filter.</tspan></text>
+<circle cx="431" cy="300" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="427.782" y="300.906">4</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" letter-spacing="0em"><tspan x="558.278" y="300.906"> The device refuses on measured charge, </tspan><tspan x="450" y="315.906">which bounds its overdraw.</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="450" y="300.906">Client-side check.</tspan></text>
+<circle cx="431" cy="340" r="10.4" fill="white" stroke="#1A1A1F" stroke-width="1.2"/>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="427.782" y="340.906">5</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" letter-spacing="0em"><tspan x="532.57" y="340.906"> The order in which the eligible clients are </tspan><tspan x="450" y="355.906">served.</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="13" font-weight="bold" letter-spacing="0em"><tspan x="450" y="340.906">Service order.</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="12.5" font-style="italic" letter-spacing="0em"><tspan x="20" y="344.775">Choices 1 and 2 decide what a comparison measures; choices 3 to 5 </tspan><tspan x="20" y="359.775">decide what the deployment receives.</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" letter-spacing="0em"><tspan x="58" y="141.43">stock </tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" font-style="italic" letter-spacing="0em"><tspan x="94.6357" y="141.43">B</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="10.5" font-style="italic" letter-spacing="0em"><tspan x="104" y="146.251">k</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" letter-spacing="0em"><tspan x="360.5" y="141.43">quantum </tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="15" font-style="italic" letter-spacing="0em"><tspan x="422.316" y="141.43">w</tspan></text>
+<text fill="#1A1A1F" style="white-space: pre" xml:space="preserve" font-family="STIX Two Text, STIX" font-size="10.5" font-style="italic" letter-spacing="0em"><tspan x="433.5" y="146.251">k</tspan></text>
+</svg>

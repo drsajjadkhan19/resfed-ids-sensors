@@ -1,0 +1,922 @@
+{
+ "1": {
+  "published": {
+   "terminal": 0.10487187333449538,
+   "energy": 96.05105274880003,
+   "updates": 238,
+   "stranded": 0.2635784317650983,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 2,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.24700542786902074,
+   "energy": 96.05105274880003,
+   "updates": 238,
+   "stranded": 0.2635784317650983,
+   "last_active": 35,
+   "n_active": 27,
+   "final_width": 11,
+   "empty_before_last": 8
+  },
+  "prio_deficit": {
+   "terminal": 0.1996901236319671,
+   "energy": 96.05105274880003,
+   "updates": 238,
+   "stranded": 0.2635784317650983,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 11,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.20095964931012952,
+   "energy": 96.05105274880003,
+   "updates": 238,
+   "stranded": 0.2635784317650983,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 11,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.03373548211106313,
+   "energy": 96.05105274880003,
+   "updates": 238,
+   "stranded": 0.2635784317650983,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 6,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.13101903792240716,
+   "energy": 96.05105274880003,
+   "updates": 238,
+   "stranded": 0.2635784317650983,
+   "last_active": 27,
+   "n_active": 22,
+   "final_width": 4,
+   "empty_before_last": 5
+  },
+  "gd_T60": {
+   "terminal": 0.21840634483238028,
+   "energy": 73.12295177472004,
+   "updates": 183,
+   "stranded": 0.43936773956309233,
+   "last_active": 40,
+   "n_active": 22,
+   "final_width": 10,
+   "empty_before_last": 18
+  },
+  "sbc2cam_published": {
+   "terminal": 0.23797943543342256,
+   "energy": 63.13898311296,
+   "updates": 150,
+   "stranded": 0.24423407248575113,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 6,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.22941852327926454,
+   "energy": 63.13898311296,
+   "updates": 150,
+   "stranded": 0.24423407248575113,
+   "last_active": 36,
+   "n_active": 21,
+   "final_width": 9,
+   "empty_before_last": 15
+  }
+ },
+ "2": {
+  "published": {
+   "terminal": 0.03394173709764431,
+   "energy": 95.55478372032,
+   "updates": 237,
+   "stranded": 0.2667842843841388,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.23293284705044492,
+   "energy": 95.55478372032,
+   "updates": 237,
+   "stranded": 0.2667842843841388,
+   "last_active": 35,
+   "n_active": 27,
+   "final_width": 10,
+   "empty_before_last": 8
+  },
+  "prio_deficit": {
+   "terminal": 0.18327853625347412,
+   "energy": 95.55478372032,
+   "updates": 237,
+   "stranded": 0.2667842843841388,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 10,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.1857507325334157,
+   "energy": 95.55478372032,
+   "updates": 237,
+   "stranded": 0.2667842843841388,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 10,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.0650845466137766,
+   "energy": 95.55478372032,
+   "updates": 237,
+   "stranded": 0.2667842843841388,
+   "last_active": 24,
+   "n_active": 24,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.09260367586278911,
+   "energy": 95.55478372032,
+   "updates": 237,
+   "stranded": 0.2667842843841388,
+   "last_active": 27,
+   "n_active": 24,
+   "final_width": 2,
+   "empty_before_last": 3
+  },
+  "gd_T60": {
+   "terminal": 0.19583528247366672,
+   "energy": 73.46050696768,
+   "updates": 184,
+   "stranded": 0.4363191868712539,
+   "last_active": 40,
+   "n_active": 23,
+   "final_width": 10,
+   "empty_before_last": 17
+  },
+  "sbc2cam_published": {
+   "terminal": 0.21945247108841354,
+   "energy": 62.64271408448,
+   "updates": 149,
+   "stranded": 0.24921672049827612,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 5,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.21853293993746276,
+   "energy": 62.64271408448,
+   "updates": 149,
+   "stranded": 0.24921672049827612,
+   "last_active": 36,
+   "n_active": 20,
+   "final_width": 8,
+   "empty_before_last": 16
+  }
+ },
+ "3": {
+  "published": {
+   "terminal": 0.12893205507630218,
+   "energy": 93.85871787584003,
+   "updates": 233,
+   "stranded": 0.26782519836045515,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 9,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.26766751441514525,
+   "energy": 93.85871787584003,
+   "updates": 233,
+   "stranded": 0.26782519836045515,
+   "last_active": 35,
+   "n_active": 27,
+   "final_width": 11,
+   "empty_before_last": 8
+  },
+  "prio_deficit": {
+   "terminal": 0.1349033727083585,
+   "energy": 93.85871787584003,
+   "updates": 233,
+   "stranded": 0.26782519836045515,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 6,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.13511355179162393,
+   "energy": 93.85871787584003,
+   "updates": 233,
+   "stranded": 0.26782519836045515,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 6,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.08117778267326689,
+   "energy": 93.85871787584003,
+   "updates": 233,
+   "stranded": 0.26782519836045515,
+   "last_active": 25,
+   "n_active": 25,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.1893056761562913,
+   "energy": 93.85871787584003,
+   "updates": 233,
+   "stranded": 0.26782519836045515,
+   "last_active": 27,
+   "n_active": 23,
+   "final_width": 1,
+   "empty_before_last": 4
+  },
+  "gd_T60": {
+   "terminal": 0.19334916887753467,
+   "energy": 71.80907938944003,
+   "updates": 180,
+   "stranded": 0.4398304212142316,
+   "last_active": 40,
+   "n_active": 23,
+   "final_width": 10,
+   "empty_before_last": 17
+  },
+  "sbc2cam_published": {
+   "terminal": 0.18391130439709955,
+   "energy": 60.94664823999999,
+   "updates": 145,
+   "stranded": 0.25039741281255057,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.22842177351688958,
+   "energy": 60.94664823999999,
+   "updates": 145,
+   "stranded": 0.25039741281255057,
+   "last_active": 36,
+   "n_active": 23,
+   "final_width": 9,
+   "empty_before_last": 13
+  }
+ },
+ "4": {
+  "published": {
+   "terminal": 0.03254180678516688,
+   "energy": 94.05774559040002,
+   "updates": 233,
+   "stranded": 0.26627261932755697,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.17152549030374917,
+   "energy": 94.05774559040002,
+   "updates": 233,
+   "stranded": 0.26627261932755697,
+   "last_active": 35,
+   "n_active": 24,
+   "final_width": 8,
+   "empty_before_last": 11
+  },
+  "prio_deficit": {
+   "terminal": 0.14110899945458386,
+   "energy": 94.05774559040002,
+   "updates": 233,
+   "stranded": 0.26627261932755697,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 7,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.14300480948895053,
+   "energy": 94.05774559040002,
+   "updates": 233,
+   "stranded": 0.26627261932755697,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 7,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.20985423902917175,
+   "energy": 94.05774559040002,
+   "updates": 233,
+   "stranded": 0.26627261932755697,
+   "last_active": 23,
+   "n_active": 23,
+   "final_width": 2,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.229684540959906,
+   "energy": 94.05774559040002,
+   "updates": 233,
+   "stranded": 0.26627261932755697,
+   "last_active": 27,
+   "n_active": 23,
+   "final_width": 1,
+   "empty_before_last": 4
+  },
+  "gd_T60": {
+   "terminal": 0.218731493102748,
+   "energy": 72.00087037440002,
+   "updates": 180,
+   "stranded": 0.4383342945938456,
+   "last_active": 40,
+   "n_active": 21,
+   "final_width": 10,
+   "empty_before_last": 19
+  },
+  "sbc2cam_published": {
+   "terminal": 0.24254476931511904,
+   "energy": 64.1459299104,
+   "updates": 153,
+   "stranded": 0.2503486139813538,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 9,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.21564744940130723,
+   "energy": 64.1459299104,
+   "updates": 153,
+   "stranded": 0.2503486139813538,
+   "last_active": 36,
+   "n_active": 21,
+   "final_width": 6,
+   "empty_before_last": 15
+  }
+ },
+ "5": {
+  "published": {
+   "terminal": 0.1275077548450617,
+   "energy": 99.58434773312001,
+   "updates": 248,
+   "stranded": 0.2676036067431067,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 8,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.20400409694650046,
+   "energy": 99.58434773312001,
+   "updates": 248,
+   "stranded": 0.2676036067431067,
+   "last_active": 35,
+   "n_active": 29,
+   "final_width": 11,
+   "empty_before_last": 6
+  },
+  "prio_deficit": {
+   "terminal": 0.15638358616645992,
+   "energy": 99.58434773312001,
+   "updates": 248,
+   "stranded": 0.2676036067431067,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 8,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.16676016774822955,
+   "energy": 99.58434773312001,
+   "updates": 248,
+   "stranded": 0.2676036067431067,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 8,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.20848888634174367,
+   "energy": 99.58434773312001,
+   "updates": 248,
+   "stranded": 0.2676036067431067,
+   "last_active": 25,
+   "n_active": 25,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.027944633063463044,
+   "energy": 99.58434773312001,
+   "updates": 248,
+   "stranded": 0.2676036067431067,
+   "last_active": 27,
+   "n_active": 24,
+   "final_width": 1,
+   "empty_before_last": 3
+  },
+  "gd_T60": {
+   "terminal": 0.20926869586995953,
+   "energy": 77.167439336,
+   "updates": 194,
+   "stranded": 0.43246950416325414,
+   "last_active": 40,
+   "n_active": 27,
+   "final_width": 10,
+   "empty_before_last": 13
+  },
+  "sbc2cam_published": {
+   "terminal": 0.2289112177789549,
+   "energy": 63.659933507839995,
+   "updates": 152,
+   "stranded": 0.24948582170612832,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 8,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.22384960246116475,
+   "energy": 63.659933507839995,
+   "updates": 152,
+   "stranded": 0.24948582170612832,
+   "last_active": 36,
+   "n_active": 21,
+   "final_width": 9,
+   "empty_before_last": 15
+  }
+ },
+ "6": {
+  "published": {
+   "terminal": 0.03031268872039187,
+   "energy": 95.75457040896,
+   "updates": 237,
+   "stranded": 0.2652512712352581,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.20832509205058325,
+   "energy": 95.75457040896,
+   "updates": 237,
+   "stranded": 0.2652512712352581,
+   "last_active": 35,
+   "n_active": 25,
+   "final_width": 12,
+   "empty_before_last": 10
+  },
+  "prio_deficit": {
+   "terminal": 0.13695593042173526,
+   "energy": 95.75457040896,
+   "updates": 237,
+   "stranded": 0.2652512712352581,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 10,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.14029017718015774,
+   "energy": 95.75457040896,
+   "updates": 237,
+   "stranded": 0.2652512712352581,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 10,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.03166968659542656,
+   "energy": 95.75457040896,
+   "updates": 237,
+   "stranded": 0.2652512712352581,
+   "last_active": 22,
+   "n_active": 22,
+   "final_width": 2,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.07388610898344265,
+   "energy": 95.75457040896,
+   "updates": 237,
+   "stranded": 0.2652512712352581,
+   "last_active": 27,
+   "n_active": 23,
+   "final_width": 5,
+   "empty_before_last": 4
+  },
+  "gd_T60": {
+   "terminal": 0.12308749880792015,
+   "energy": 73.5712995328,
+   "updates": 184,
+   "stranded": 0.4354690478540683,
+   "last_active": 40,
+   "n_active": 21,
+   "final_width": 10,
+   "empty_before_last": 19
+  },
+  "sbc2cam_published": {
+   "terminal": 0.1808228331195944,
+   "energy": 62.842500773119994,
+   "updates": 149,
+   "stranded": 0.24682224402179967,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 5,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.1752679958908724,
+   "energy": 62.842500773119994,
+   "updates": 149,
+   "stranded": 0.24682224402179967,
+   "last_active": 36,
+   "n_active": 19,
+   "final_width": 10,
+   "empty_before_last": 17
+  }
+ },
+ "7": {
+  "published": {
+   "terminal": 0.12750724969220562,
+   "energy": 97.85329259519999,
+   "updates": 243,
+   "stranded": 0.26477749320176863,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 7,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.21028707830583315,
+   "energy": 97.85329259519999,
+   "updates": 243,
+   "stranded": 0.26477749320176863,
+   "last_active": 35,
+   "n_active": 29,
+   "final_width": 10,
+   "empty_before_last": 6
+  },
+  "prio_deficit": {
+   "terminal": 0.11703543184991361,
+   "energy": 97.85329259519999,
+   "updates": 243,
+   "stranded": 0.26477749320176863,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 4,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.11510476881802624,
+   "energy": 97.85329259519999,
+   "updates": 243,
+   "stranded": 0.26477749320176863,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 4,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.20669188969462055,
+   "energy": 97.85329259519999,
+   "updates": 243,
+   "stranded": 0.26477749320176863,
+   "last_active": 23,
+   "n_active": 23,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.10129927713849748,
+   "energy": 97.85329259519999,
+   "updates": 243,
+   "stranded": 0.26477749320176863,
+   "last_active": 27,
+   "n_active": 23,
+   "final_width": 2,
+   "empty_before_last": 4
+  },
+  "gd_T60": {
+   "terminal": 0.17398421627466057,
+   "energy": 75.01044382591999,
+   "updates": 188,
+   "stranded": 0.4364076559602036,
+   "last_active": 40,
+   "n_active": 24,
+   "final_width": 10,
+   "empty_before_last": 16
+  },
+  "sbc2cam_published": {
+   "terminal": 0.24213209405075814,
+   "energy": 64.94122295936,
+   "updates": 155,
+   "stranded": 0.24668306719080024,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 11,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.2266849079061915,
+   "energy": 64.94122295936,
+   "updates": 155,
+   "stranded": 0.24668306719080024,
+   "last_active": 36,
+   "n_active": 21,
+   "final_width": 8,
+   "empty_before_last": 15
+  }
+ },
+ "8": {
+  "published": {
+   "terminal": 0.03243984851577205,
+   "energy": 95.36839380672,
+   "updates": 237,
+   "stranded": 0.26821450073294884,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.3213137202861619,
+   "energy": 95.36839380672,
+   "updates": 237,
+   "stranded": 0.26821450073294884,
+   "last_active": 35,
+   "n_active": 27,
+   "final_width": 9,
+   "empty_before_last": 8
+  },
+  "prio_deficit": {
+   "terminal": 0.19627778284458813,
+   "energy": 95.36839380672,
+   "updates": 237,
+   "stranded": 0.26821450073294884,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 10,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.1953287240672878,
+   "energy": 95.36839380672,
+   "updates": 237,
+   "stranded": 0.26821450073294884,
+   "last_active": 20,
+   "n_active": 20,
+   "final_width": 10,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.0788359697172047,
+   "energy": 95.36839380672,
+   "updates": 237,
+   "stranded": 0.26821450073294884,
+   "last_active": 23,
+   "n_active": 23,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.224770260964847,
+   "energy": 95.36839380672,
+   "updates": 237,
+   "stranded": 0.26821450073294884,
+   "last_active": 26,
+   "n_active": 22,
+   "final_width": 12,
+   "empty_before_last": 4
+  },
+  "gd_T60": {
+   "terminal": 0.2012477854078406,
+   "energy": 73.37525476288,
+   "updates": 184,
+   "stranded": 0.43697334832624934,
+   "last_active": 40,
+   "n_active": 23,
+   "final_width": 10,
+   "empty_before_last": 17
+  },
+  "sbc2cam_published": {
+   "terminal": 0.23969375123433645,
+   "energy": 62.456324170879995,
+   "updates": 149,
+   "stranded": 0.25145063441219007,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 5,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.3451851475364695,
+   "energy": 62.456324170879995,
+   "updates": 149,
+   "stranded": 0.25145063441219007,
+   "last_active": 36,
+   "n_active": 23,
+   "final_width": 7,
+   "empty_before_last": 13
+  }
+ },
+ "9": {
+  "published": {
+   "terminal": 0.11680542207451267,
+   "energy": 98.01267715200001,
+   "updates": 243,
+   "stranded": 0.2635799544139816,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 7,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.2599615320416685,
+   "energy": 98.01267715200001,
+   "updates": 243,
+   "stranded": 0.2635799544139816,
+   "last_active": 35,
+   "n_active": 29,
+   "final_width": 11,
+   "empty_before_last": 6
+  },
+  "prio_deficit": {
+   "terminal": 0.12894795545159873,
+   "energy": 98.01267715200001,
+   "updates": 243,
+   "stranded": 0.2635799544139816,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 4,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.12035509365334073,
+   "energy": 98.01267715200001,
+   "updates": 243,
+   "stranded": 0.2635799544139816,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 4,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.21212130072895619,
+   "energy": 98.01267715200001,
+   "updates": 243,
+   "stranded": 0.2635799544139816,
+   "last_active": 22,
+   "n_active": 22,
+   "final_width": 3,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.1242022094345782,
+   "energy": 98.01267715200001,
+   "updates": 243,
+   "stranded": 0.2635799544139816,
+   "last_active": 27,
+   "n_active": 23,
+   "final_width": 3,
+   "empty_before_last": 4
+  },
+  "gd_T60": {
+   "terminal": 0.23027260318803966,
+   "energy": 75.09013610432001,
+   "updates": 188,
+   "stranded": 0.43580888656631006,
+   "last_active": 40,
+   "n_active": 25,
+   "final_width": 10,
+   "empty_before_last": 15
+  },
+  "sbc2cam_published": {
+   "terminal": 0.2194676666746815,
+   "energy": 65.10060751616,
+   "updates": 155,
+   "stranded": 0.24483420940841963,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 11,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.2188508563930094,
+   "energy": 65.10060751616,
+   "updates": 155,
+   "stranded": 0.24483420940841963,
+   "last_active": 36,
+   "n_active": 20,
+   "final_width": 9,
+   "empty_before_last": 16
+  }
+ },
+ "10": {
+  "published": {
+   "terminal": 0.03265337389835386,
+   "energy": 97.20261646784002,
+   "updates": 242,
+   "stranded": 0.26908115696946944,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 6,
+   "empty_before_last": 0
+  },
+  "gated_deficit": {
+   "terminal": 0.23144324485753498,
+   "energy": 97.20261646784002,
+   "updates": 242,
+   "stranded": 0.26908115696946944,
+   "last_active": 35,
+   "n_active": 29,
+   "final_width": 8,
+   "empty_before_last": 6
+  },
+  "prio_deficit": {
+   "terminal": 0.15271300839082746,
+   "energy": 97.20261646784002,
+   "updates": 242,
+   "stranded": 0.26908115696946944,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 3,
+   "empty_before_last": 0
+  },
+  "prio_credit": {
+   "terminal": 0.1535545097343455,
+   "energy": 97.20261646784002,
+   "updates": 242,
+   "stranded": 0.26908115696946944,
+   "last_active": 21,
+   "n_active": 21,
+   "final_width": 3,
+   "empty_before_last": 0
+  },
+  "random_order": {
+   "terminal": 0.21008778297833822,
+   "energy": 97.20261646784002,
+   "updates": 242,
+   "stranded": 0.26908115696946944,
+   "last_active": 23,
+   "n_active": 23,
+   "final_width": 1,
+   "empty_before_last": 0
+  },
+  "gd_T30": {
+   "terminal": 0.23001363989668694,
+   "energy": 97.20261646784002,
+   "updates": 242,
+   "stranded": 0.26908115696946944,
+   "last_active": 26,
+   "n_active": 23,
+   "final_width": 10,
+   "empty_before_last": 3
+  },
+  "gd_T60": {
+   "terminal": 0.21214719534987622,
+   "energy": 75.27873822144001,
+   "updates": 189,
+   "stranded": 0.4339386094219219,
+   "last_active": 40,
+   "n_active": 26,
+   "final_width": 10,
+   "empty_before_last": 14
+  },
+  "sbc2cam_published": {
+   "terminal": 0.23644467749892614,
+   "energy": 64.29054683199999,
+   "updates": 154,
+   "stranded": 0.25330791614634446,
+   "last_active": 13,
+   "n_active": 13,
+   "final_width": 10,
+   "empty_before_last": 0
+  },
+  "sbc2cam_gated_deficit": {
+   "terminal": 0.2570172924253205,
+   "energy": 64.29054683199999,
+   "updates": 154,
+   "stranded": 0.25330791614634446,
+   "last_active": 36,
+   "n_active": 23,
+   "final_width": 6,
+   "empty_before_last": 13
+  }
+ }
+}

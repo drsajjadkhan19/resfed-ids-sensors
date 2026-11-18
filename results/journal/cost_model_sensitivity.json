@@ -1,0 +1,82 @@
+{
+ "config": {
+  "rounds": 60,
+  "m": 15,
+  "local_epochs": 3,
+  "batch_size": 256,
+  "lr": 0.001,
+  "seed": 42,
+  "hold_out_frac": 0.25,
+  "hidden": [
+   256,
+   128,
+   64
+  ],
+  "max_rows_per_client": 2000,
+  "holdout_pool": 5,
+  "exclude_devices": []
+ },
+ "floor": 0.040928574137996436,
+ "rows": [
+  {
+   "label": "baseline",
+   "flop_mult": 1.0,
+   "tx_mult": 1.0,
+   "rho_spread": 93.06796249818824,
+   "aggregate_budget": 267,
+   "lacs_f1": 0.2911842888842321,
+   "thr_f1": 0.19683001539960113,
+   "advantage": 0.029957089153340416,
+   "lacs_stranded": 0.14416321084190992,
+   "thr_stranded": 0.27570245973400587
+  },
+  {
+   "label": "compute /10  (comms-dominated)",
+   "flop_mult": 0.1,
+   "tx_mult": 1.0,
+   "rho_spread": 31.95418549170867,
+   "aggregate_budget": 302,
+   "lacs_f1": 0.15584768744861785,
+   "thr_f1": 0.03389955107721864,
+   "advantage": 0.1934712016696226,
+   "lacs_stranded": 0.12327145564933864,
+   "thr_stranded": 0.3023163430413422
+  },
+  {
+   "label": "compute x10  (compute-dominated)",
+   "flop_mult": 10.0,
+   "tx_mult": 1.0,
+   "rho_spread": 586.6431673695475,
+   "aggregate_budget": 123,
+   "lacs_f1": 0.1410736753383408,
+   "thr_f1": 0.03973860563885707,
+   "advantage": 0.10620407903401088,
+   "lacs_stranded": 0.34034147526166936,
+   "thr_stranded": 0.4483692985461189
+  },
+  {
+   "label": "comms /10",
+   "flop_mult": 1.0,
+   "tx_mult": 0.1,
+   "rho_spread": 586.6431673695474,
+   "aggregate_budget": 1513,
+   "lacs_f1": 0.3826160534825881,
+   "thr_f1": 0.2883336768299918,
+   "advantage": 0.09610665314508698,
+   "lacs_stranded": 0.3508299532469366,
+   "thr_stranded": 0.4254861912640801
+  },
+  {
+   "label": "comms x10",
+   "flop_mult": 1.0,
+   "tx_mult": 10.0,
+   "rho_spread": 31.954185491708667,
+   "aggregate_budget": 11,
+   "lacs_f1": 0.021792380630393945,
+   "thr_f1": 0.021792380630393945,
+   "advantage": 0.0,
+   "lacs_stranded": 0.6834378339723218,
+   "thr_stranded": 0.6834378339723218
+  }
+ ]
+}
